@@ -1,0 +1,310 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Proportional symbol map: where each food commodity was sold in 2025. Circle area shows the export value to each country. Choose a commodity from the dropdown. Pacific-centred Equal Earth projection.",
+  "width": "container",
+  "height": 500,
+  "params": [
+    {
+      "name": "commodity_selection",
+      "value": "Beef",
+      "bind": {
+        "input": "select",
+        "options": [
+          "All food",
+          "Beef",
+          "Wheat",
+          "Barley",
+          "Other grains",
+          "Lamb & other meat",
+          "Live animals",
+          "Canola & oilseeds",
+          "Dairy",
+          "Wine & spirits",
+          "Seafood",
+          "Sugar",
+          "Fruit, nuts & veg"
+        ],
+        "name": "Choose a commodity: "
+      }
+    }
+  ],
+  "projection": {
+    "type": "equalEarth",
+    "rotate": [
+      -150,
+      0,
+      0
+    ]
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "data/ne_110m_admin_0_countries.topojson",
+        "format": {
+          "type": "topojson",
+          "feature": "ne_110m_admin_0_countries"
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.properties.NAME != 'Antarctica'"
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "fill": "#E2DCCF",
+        "stroke": "white",
+        "strokeWidth": 0.4
+      }
+    },
+    {
+      "data": {
+        "url": "data/ne_110m_admin_0_countries.topojson",
+        "format": {
+          "type": "topojson",
+          "feature": "ne_110m_admin_0_countries"
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.properties.NAME == 'Australia'"
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "fill": "#3E7C4F",
+        "stroke": "white",
+        "strokeWidth": 0.5
+      }
+    },
+    {
+      "data": {
+        "url": "data/markets_by_commodity_2025.csv"
+      },
+      "transform": [
+        {
+          "filter": "datum.group == commodity_selection"
+        }
+      ],
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "circle",
+            "color": "#B4532A",
+            "opacity": 0.75,
+            "stroke": "white",
+            "strokeWidth": 0.8
+          },
+          "encoding": {
+            "size": {
+              "field": "value",
+              "type": "quantitative",
+              "title": "Exports in 2025 (A$m)",
+              "scale": {
+                "range": [
+                  0,
+                  1200
+                ]
+              },
+              "legend": {
+                "orient": "bottom-left",
+                "format": "$,.0f",
+                "tickCount": 3,
+                "fillColor": "#FAF6EE",
+                "padding": 10
+              }
+            },
+            "tooltip": [
+              {
+                "field": "country",
+                "type": "nominal",
+                "title": "Market"
+              },
+              {
+                "field": "group",
+                "type": "nominal",
+                "title": "Commodity"
+              },
+              {
+                "field": "value",
+                "type": "quantitative",
+                "title": "Exports 2025 (A$m)",
+                "format": "$,.0f"
+              },
+              {
+                "field": "share",
+                "type": "quantitative",
+                "title": "Share of this commodity's exports (%)",
+                "format": ".1f"
+              },
+              {
+                "field": "rank",
+                "type": "quantitative",
+                "title": "Rank"
+              }
+            ]
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": "datum.rank <= 5 && datum.label_side == 'right'"
+            }
+          ],
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "dx": 22,
+            "dy": -6,
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "color": "#23211E"
+          },
+          "encoding": {
+            "text": {
+              "field": "country",
+              "type": "nominal"
+            }
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": "datum.rank <= 5 && datum.label_side == 'right'"
+            }
+          ],
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "dx": 22,
+            "dy": 8,
+            "fontSize": 11,
+            "color": "#6E675C"
+          },
+          "encoding": {
+            "text": {
+              "field": "value_label",
+              "type": "nominal"
+            }
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": "datum.rank <= 5 && datum.label_side == 'left'"
+            }
+          ],
+          "mark": {
+            "type": "text",
+            "align": "right",
+            "dx": -22,
+            "dy": -6,
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "color": "#23211E"
+          },
+          "encoding": {
+            "text": {
+              "field": "country",
+              "type": "nominal"
+            }
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": "datum.rank <= 5 && datum.label_side == 'left'"
+            }
+          ],
+          "mark": {
+            "type": "text",
+            "align": "right",
+            "dx": -22,
+            "dy": 8,
+            "fontSize": 11,
+            "color": "#6E675C"
+          },
+          "encoding": {
+            "text": {
+              "field": "value_label",
+              "type": "nominal"
+            }
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": "datum.rank <= 5 && datum.label_side == 'above'"
+            }
+          ],
+          "mark": {
+            "type": "text",
+            "align": "center",
+            "dy": -38,
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "color": "#23211E"
+          },
+          "encoding": {
+            "text": {
+              "field": "country",
+              "type": "nominal"
+            }
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": "datum.rank <= 5 && datum.label_side == 'above'"
+            }
+          ],
+          "mark": {
+            "type": "text",
+            "align": "center",
+            "dy": -24,
+            "fontSize": 11,
+            "color": "#6E675C"
+          },
+          "encoding": {
+            "text": {
+              "field": "value_label",
+              "type": "nominal"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "config": {
+    "background": "#FAF6EE",
+    "font": "'Source Sans 3', Arial, sans-serif",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelColor": "#5C564C",
+      "titleColor": "#3A362F",
+      "gridColor": "#E8E1D3",
+      "domainColor": "#BDB4A4",
+      "tickColor": "#BDB4A4",
+      "labelFontSize": 12,
+      "titleFontSize": 12
+    },
+    "legend": {
+      "labelColor": "#3A362F",
+      "titleColor": "#3A362F",
+      "labelFontSize": 12,
+      "titleFontSize": 12
+    }
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Line chart: total value of Australian food exports by financial year, 1988-89 to 2024-25, with annotations for key events.",
+  "width": "container",
+  "height": 320,
+  "data": {
+    "url": "data/commodities_by_year.csv"
+  },
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "quantitative",
+      "title": "Financial year ending",
+      "scale": {
+        "domain": [
+          1989,
+          2025
+        ]
+      },
+      "axis": {
+        "format": "d",
+        "tickCount": 9,
+        "grid": false
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "area",
+        "color": "#E0A526",
+        "opacity": 0.18
+      },
+      "encoding": {
+        "y": {
+          "aggregate": "sum",
+          "field": "value",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "color": "#8C3B1F",
+        "strokeWidth": 2.5
+      },
+      "encoding": {
+        "y": {
+          "aggregate": "sum",
+          "field": "value",
+          "type": "quantitative",
+          "title": "Food exports (A$ billion)",
+          "scale": {
+            "domain": [
+              0,
+              75000
+            ]
+          },
+          "axis": {
+            "tickCount": 5,
+            "labelExpr": "'$' + datum.value / 1000 + 'b'"
+          }
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "circle",
+        "color": "#8C3B1F",
+        "size": 30
+      },
+      "encoding": {
+        "y": {
+          "aggregate": "sum",
+          "field": "value",
+          "type": "quantitative"
+        },
+        "tooltip": [
+          {
+            "field": "fy",
+            "type": "nominal",
+            "title": "Financial year"
+          },
+          {
+            "aggregate": "sum",
+            "field": "value",
+            "type": "quantitative",
+            "title": "Food exports (A$ million)",
+            "format": "$,.0f"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "year": 2003,
+            "total": 21094,
+            "label_y": 33000,
+            "label": "2002–03: drought cuts exports by 17%",
+            "side": "centre"
+          },
+          {
+            "year": 2023,
+            "total": 63774,
+            "label_y": 72000,
+            "label": "2022–23: record $16.7b of wheat sold",
+            "side": "right"
+          },
+          {
+            "year": 2025,
+            "total": 63013,
+            "label_y": 28000,
+            "label": "2024–25: $63b, led by record beef sales",
+            "side": "right"
+          }
+        ]
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "rule",
+            "color": "#6E675C",
+            "strokeDash": [
+              3,
+              3
+            ]
+          },
+          "encoding": {
+            "y": {
+              "field": "total",
+              "type": "quantitative"
+            },
+            "y2": {
+              "field": "label_y"
+            }
+          }
+        },
+        {
+          "mark": {
+            "type": "circle",
+            "color": "#23211E",
+            "size": 45,
+            "opacity": 1
+          },
+          "encoding": {
+            "y": {
+              "field": "total",
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": "datum.side == 'centre'"
+            }
+          ],
+          "mark": {
+            "type": "text",
+            "align": "center",
+            "dy": -7,
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "color": "#23211E"
+          },
+          "encoding": {
+            "y": {
+              "field": "label_y",
+              "type": "quantitative"
+            },
+            "text": {
+              "field": "label",
+              "type": "nominal"
+            }
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": "datum.side == 'right'"
+            }
+          ],
+          "mark": {
+            "type": "text",
+            "align": "right",
+            "dy": -7,
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "color": "#23211E"
+          },
+          "encoding": {
+            "y": {
+              "field": "label_y",
+              "type": "quantitative"
+            },
+            "text": {
+              "field": "label",
+              "type": "nominal"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "config": {
+    "background": "#FAF6EE",
+    "font": "'Source Sans 3', Arial, sans-serif",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelColor": "#5C564C",
+      "titleColor": "#3A362F",
+      "gridColor": "#E8E1D3",
+      "domainColor": "#BDB4A4",
+      "tickColor": "#BDB4A4",
+      "labelFontSize": 12,
+      "titleFontSize": 12
+    },
+    "legend": {
+      "labelColor": "#3A362F",
+      "titleColor": "#3A362F",
+      "labelFontSize": 12,
+      "titleFontSize": 12
+    }
+  }
+}

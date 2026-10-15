@@ -1,0 +1,170 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Dumbbell (connected dot) chart: value of four Australian food exports to China before (2019), during (2021) and after (2025) China's trade barriers.",
+  "width": "container",
+  "height": 290,
+  "data": {
+    "url": "data/china_trade_barriers.csv"
+  },
+  "encoding": {
+    "x": {
+      "field": "value",
+      "type": "quantitative",
+      "title": "Exports to China (A$ million)",
+      "scale": {
+        "domain": [
+          0,
+          3800
+        ]
+      },
+      "axis": {
+        "format": "$,.0f",
+        "tickCount": 5
+      }
+    },
+    "y": {
+      "field": "commodity",
+      "type": "nominal",
+      "title": null,
+      "sort": [
+        "Beef",
+        "Wine",
+        "Rock lobster & crustaceans",
+        "Barley"
+      ],
+      "axis": {
+        "ticks": false,
+        "domain": false,
+        "labelFontSize": 13,
+        "labelPadding": 10,
+        "labelLimit": 200
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "color": "#CFC8BB",
+        "strokeWidth": 5,
+        "strokeCap": "round"
+      },
+      "encoding": {
+        "detail": {
+          "field": "commodity",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "circle",
+        "size": 220,
+        "opacity": 1,
+        "stroke": "#FAF6EE",
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "color": {
+          "field": "period",
+          "type": "nominal",
+          "title": null,
+          "scale": {
+            "domain": [
+              "2019 (before)",
+              "2021 (trade barriers)",
+              "2025 (after)"
+            ],
+            "range": [
+              "#8A8274",
+              "#B4532A",
+              "#3E7C4F"
+            ]
+          },
+          "legend": {
+            "orient": "top",
+            "direction": "horizontal"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "commodity",
+            "type": "nominal",
+            "title": "Commodity"
+          },
+          {
+            "field": "period",
+            "type": "nominal",
+            "title": "Year"
+          },
+          {
+            "field": "value",
+            "type": "quantitative",
+            "title": "Exports to China (A$m)",
+            "format": "$,.0f"
+          }
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.year != 2025"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "dy": -16,
+        "fontSize": 11,
+        "color": "#3A362F"
+      },
+      "encoding": {
+        "text": {
+          "field": "value_label",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.year == 2025"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "dy": 19,
+        "fontSize": 11,
+        "color": "#3A362F"
+      },
+      "encoding": {
+        "text": {
+          "field": "value_label",
+          "type": "nominal"
+        }
+      }
+    }
+  ],
+  "config": {
+    "background": "#FAF6EE",
+    "font": "'Source Sans 3', Arial, sans-serif",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelColor": "#5C564C",
+      "titleColor": "#3A362F",
+      "gridColor": "#E8E1D3",
+      "domainColor": "#BDB4A4",
+      "tickColor": "#BDB4A4",
+      "labelFontSize": 12,
+      "titleFontSize": 12
+    },
+    "legend": {
+      "labelColor": "#3A362F",
+      "titleColor": "#3A362F",
+      "labelFontSize": 12,
+      "titleFontSize": 12
+    }
+  }
+}

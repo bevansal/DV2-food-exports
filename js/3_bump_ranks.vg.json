@@ -1,0 +1,221 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Bump chart: rank of 15 food commodity groups by export value each financial year from 2005-06 to 2024-25. Four story lines are coloured; click a line to highlight it.",
+  "width": "container",
+  "height": 400,
+  "padding": {
+    "left": 110,
+    "right": 120,
+    "top": 5,
+    "bottom": 5
+  },
+  "data": {
+    "url": "data/commodities_by_year.csv"
+  },
+  "transform": [
+    {
+      "filter": "datum.year >= 2006"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "quantitative",
+      "title": "Financial year ending",
+      "scale": {
+        "domain": [
+          2006,
+          2025
+        ]
+      },
+      "axis": {
+        "format": "d",
+        "tickCount": 10,
+        "grid": false
+      }
+    },
+    "y": {
+      "field": "rank",
+      "type": "quantitative",
+      "title": null,
+      "scale": {
+        "domain": [
+          1,
+          15
+        ],
+        "reverse": true
+      },
+      "axis": null
+    },
+    "color": {
+      "field": "story",
+      "type": "nominal",
+      "legend": null,
+      "scale": {
+        "domain": [
+          "Beef",
+          "Wheat",
+          "Pulses",
+          "Wine",
+          "Other commodities"
+        ],
+        "range": [
+          "#9E2A2B",
+          "#D99A1E",
+          "#3E7C4F",
+          "#6E2B57",
+          "#DDD6CA"
+        ]
+      }
+    }
+  },
+  "layer": [
+    {
+      "params": [
+        {
+          "name": "commodity_highlight",
+          "select": {
+            "type": "point",
+            "fields": [
+              "group"
+            ]
+          }
+        }
+      ],
+      "mark": {
+        "type": "line",
+        "interpolate": "monotone"
+      },
+      "encoding": {
+        "detail": {
+          "field": "group",
+          "type": "nominal"
+        },
+        "strokeWidth": {
+          "condition": {
+            "test": "datum.story != 'Other commodities'",
+            "value": 3.5
+          },
+          "value": 1.5
+        },
+        "opacity": {
+          "condition": {
+            "param": "commodity_highlight",
+            "value": 1
+          },
+          "value": 0.15
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "circle",
+        "size": 45,
+        "opacity": 1,
+        "stroke": "#FAF6EE",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "tooltip": [
+          {
+            "field": "group",
+            "type": "nominal",
+            "title": "Commodity"
+          },
+          {
+            "field": "fy",
+            "type": "nominal",
+            "title": "Financial year"
+          },
+          {
+            "field": "rank",
+            "type": "quantitative",
+            "title": "Rank"
+          },
+          {
+            "field": "value",
+            "type": "quantitative",
+            "title": "Exports (A$m)",
+            "format": "$,.0f"
+          }
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.year == 2025"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 10,
+        "fontSize": 12
+      },
+      "encoding": {
+        "text": {
+          "field": "group",
+          "type": "nominal"
+        },
+        "color": {
+          "condition": {
+            "test": "datum.story == 'Other commodities'",
+            "value": "#8A8274"
+          },
+          "field": "story",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.year == 2006"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -10,
+        "fontSize": 12
+      },
+      "encoding": {
+        "text": {
+          "field": "group",
+          "type": "nominal"
+        },
+        "color": {
+          "condition": {
+            "test": "datum.story == 'Other commodities'",
+            "value": "#8A8274"
+          },
+          "field": "story",
+          "type": "nominal"
+        }
+      }
+    }
+  ],
+  "config": {
+    "background": "#FAF6EE",
+    "font": "'Source Sans 3', Arial, sans-serif",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelColor": "#5C564C",
+      "titleColor": "#3A362F",
+      "gridColor": "#E8E1D3",
+      "domainColor": "#BDB4A4",
+      "tickColor": "#BDB4A4",
+      "labelFontSize": 12,
+      "titleFontSize": 12
+    },
+    "legend": {
+      "labelColor": "#3A362F",
+      "titleColor": "#3A362F",
+      "labelFontSize": 12,
+      "titleFontSize": 12
+    }
+  }
+}

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Feeding the world: Australia's food exports</title>
+  <meta name="description" content="A data story about what food Australia sells overseas, who buys it, and how that has changed. Built with Vega-Lite by Bevan Saldanha, October 2026.">
+  <meta name="author" content="Bevan Saldanha">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Import Vega, Vega-Lite and Vega-Embed -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+  <!-- Import pure.css (grid layout) -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css">
+
+  <!-- CSS file -->
+  <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+</head>
+<body>
+
+  <!-- ===================== HERO ===================== -->
+  <header class="hero">
+    <div class="wrap">
+      <p class="kicker">Australian food exports · 1988 to 2025</p>
+      <h1>Feeding the world</h1>
+      <p class="standfirst">Australia sends most of what its farms and fisheries produce overseas. Here is what we sell, who buys it, and how quickly that can change.</p>
+      <p class="byline">By Bevan Saldanha · October 2026</p>
+
+      <div class="figures pure-g">
+        <div class="figure pure-u-1-2 pure-u-md-1-4">
+          <span class="num">$63.0b</span>
+          <span class="lbl">of food exported in 2024–25, seven times more than in 1988–89</span>
+        </div>
+        <div class="figure pure-u-1-2 pure-u-md-1-4">
+          <span class="num">~70%</span>
+          <span class="lbl">of everything our farms, fisheries and forests produce is sold overseas</span>
+        </div>
+        <div class="figure pure-u-1-2 pure-u-md-1-4">
+          <span class="num">181</span>
+          <span class="lbl">countries bought Australian food in 2025</span>
+        </div>
+        <div class="figure pure-u-1-2 pure-u-md-1-4">
+          <span class="num">$1 in $5</span>
+          <span class="lbl">of food export earnings comes from one market: China</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===================== 1. BIG PICTURE ===================== -->
+    <section class="chapter" id="big-picture">
+      <div class="wrap">
+        <p class="chapter-num">01</p>
+        <h2>A $63 billion pantry for the world</h2>
+        <p class="lede">Australia grows far more food than 27 million people can eat. Selling the surplus overseas has become one of the country's biggest earners, and it has grown almost every year for three decades.</p>
+
+        <div class="chart-block">
+          <h3>Food exports have grown more than sevenfold since 1988–89</h3>
+          <p class="sub">Total value of Australia's food exports each financial year, in Australian dollars. <span class="how">Hover the line for each year's value</span></p>
+          <div id="chart-line" class="chart"></div>
+          <p class="note">Values are in nominal dollars (not adjusted for inflation). "Food" here means the 15 commodity groups listed in the heatmap below; wool, cotton, timber and other non-food farm products are excluded. Source: ABARES Agricultural Commodity Statistics, Table 13.</p>
+        </div>
+
+        <div class="pure-g">
+          <div class="pure-u-1 pure-u-md-5-12 side-text text-col-left">
+            <h3>Where every dollar comes from</h3>
+            <p>Break the 2024–25 total into 100 one-dollar squares and two products dominate. <span class="hl-wheat">Grains and pulses</span> (wheat, barley, chickpeas, lentils and more) earn <strong>$30 of every $100</strong>. <span class="hl-soil">Beef</span> earns another <strong>$26</strong>.</p>
+            <p>Add lamb and other meat and more than two-thirds of our food export income comes from just three groups. Wine, despite its high profile, earns only $4 in every $100.</p>
+            <div class="callout">More than half of every food export dollar comes from grain and beef.</div>
+          </div>
+          <div class="pure-u-1 pure-u-md-7-12 chart-block">
+            <h3>Every $100 of food exports in 2024–25</h3>
+            <p class="sub">Each square is $1. <span class="how">Hover a square for the dollar value</span></p>
+            <div id="chart-waffle" class="chart"></div>
+            <p class="note">Squares rounded to whole dollars. Source: ABARES Agricultural Commodity Statistics, Table 13.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 2. WHAT WE SELL ===================== -->
+    <section class="chapter" id="what-we-sell">
+      <div class="wrap">
+        <p class="chapter-num">02</p>
+        <h2>What we sell is always shifting</h2>
+        <p class="lede">The mix of products changes from year to year. Weather decides how much grain there is to sell, overseas tastes decide which meats are in demand, and trade rules can shut a market overnight.</p>
+
+        <div class="chart-block">
+          <h3>Beef and wheat trade the top spot, while wine falls and pulses rise</h3>
+          <p class="sub">Rank of each commodity group by export value, 2005–06 to 2024–25 (1 = largest). <span class="how">Click a line to follow one commodity, and click empty space to reset</span></p>
+          <div id="chart-bump" class="chart"></div>
+          <p class="note"><span class="hl-soil">Beef</span> has been number one in 15 of the last 20 years. <span class="hl-wheat">Wheat</span> takes the top spot after big harvests, as in 2021–22 and 2022–23. <span class="hl-wine">Wine</span> was our second-biggest food export in 2006–07 but ranked 10th in 2024–25. <span class="hl-green">Pulses</span> climbed from 13th to 5th. Source: ABARES Agricultural Commodity Statistics, Table 13.</p>
+        </div>
+
+        <div class="chart-block">
+          <h3>Thirty-seven years of the food export mix</h3>
+          <p class="sub">Each commodity's share of food exports in each financial year. Darker cells mean a bigger share. <span class="how">Hover any cell for details</span></p>
+          <div id="chart-heatmap" class="chart"></div>
+          <p class="note">Read across a row to see one product's story. Wheat's share has roughly halved, from 26% in 1988–89 to 14% in 2024–25. Wine's boom peaked at 13% in 2006–07. Canola and oilseeds barely registered before 2010 but now earn 8%. Source: ABARES Agricultural Commodity Statistics, Table 13.</p>
+        </div>
+
+        <div class="pure-g">
+          <div class="pure-u-1 pure-u-md-7-12 chart-block">
+            <h3>Where the last decade's growth came from</h3>
+            <p class="sub">Change in food export value by commodity, 2014–15 to 2024–25. <span class="how">Hover a bar for the change</span></p>
+            <div id="chart-waterfall" class="chart"></div>
+            <p class="note">Source: ABARES Agricultural Commodity Statistics, Table 13.</p>
+          </div>
+          <div class="pure-u-1 pure-u-md-5-12 side-text text-col-right">
+            <h3>$27 billion of extra sales in ten years</h3>
+            <p>Food exports rose from <strong>$35.9 billion</strong> to <strong>$63.0 billion</strong> over the decade. Read the waterfall from top to bottom: each bar adds what one commodity contributed to that growth.</p>
+            <p><span class="hl-wheat">Grains and pulses</span> added $8.5 billion and <span class="hl-soil">beef</span> $7.1 billion. Together they explain more than half the increase.</p>
+            <p>Only one group went backwards: <span class="hl-soil">live animal exports</span>, down $0.5 billion. Fewer cattle were shipped live, and live sheep exports collapsed from $245 million to $56 million ahead of the planned 2028 end to the trade by sea.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 3. WHO BUYS IT ===================== -->
+    <section class="chapter" id="who-buys">
+      <div class="wrap">
+        <p class="chapter-num">03</p>
+        <h2>Who is on the other end of the plate?</h2>
+        <p class="lede">Australian food reaches more than 180 countries, but most of it stays close to home. Our biggest customers are our Asian neighbours, plus one very hungry market across the Pacific.</p>
+
+        <div class="chart-block">
+          <h3>Who buys Australian food, year by year</h3>
+          <p class="sub">Value of food exports to each country. Darker countries buy more. <span class="how">Drag the year slider under the map to replay 2006 to 2025, and hover a country for details</span></p>
+          <div id="map-choropleth" class="chart"></div>
+          <div class="map-legend" aria-label="Map colour key">
+            <span class="title">Food exports (A$)</span>
+            <span class="sw"><i style="background:#F7EBCB"></i>&lt;$10m</span>
+            <span class="sw"><i style="background:#F0D48F"></i>$10–100m</span>
+            <span class="sw"><i style="background:#E6B25A"></i>$100–500m</span>
+            <span class="sw"><i style="background:#D88A3A"></i>$0.5–1b</span>
+            <span class="sw"><i style="background:#BF6128"></i>$1–2.5b</span>
+            <span class="sw"><i style="background:#9B421E"></i>$2.5–5b</span>
+            <span class="sw"><i style="background:#6E2B14"></i>$5–10b</span>
+            <span class="sw"><i style="background:#40180B"></i>$10b+</span>
+            <span class="extra"><i style="background:#E2DCCF"></i>No recorded trade</span>
+            <span class="extra"><i style="background:#3E7C4F"></i>Australia</span>
+          </div>
+          <p class="note">Calendar years. Equal Earth projection, which keeps every country's area true to size. Small markets such as Singapore and Hong Kong are too small to show at this map scale. Try 2006, when Japan was the darkest country on the map, then compare it with China's rise from 2013 onwards. Source: DFAT trade statistical pivot tables (merchandise exports by country and SITC code).</p>
+        </div>
+
+        <div class="chart-block">
+          <h3>Australia's 15 biggest food markets in 2025</h3>
+          <p class="sub">Line width and circle size show the value of food exports to each market. The map is centred on the Pacific so Australia sits in the middle. <span class="how">Hover a line or circle for details</span></p>
+          <div id="map-flow" class="chart"></div>
+          <p class="note">These 15 markets bought 80% of Australia's food exports in 2025. Lines are drawn as straight connections, not shipping routes. Source: DFAT trade statistical pivot tables.</p>
+        </div>
+
+        <div class="chart-block">
+          <h3>Pick a product to see who buys it</h3>
+          <p class="sub">Value of each product exported to each country in 2025. Circle area shows value. <span class="how">Choose a commodity from the dropdown, then hover a circle</span></p>
+          <div id="map-symbols" class="chart"></div>
+          <p class="note">Every product has its own buyers. Beef goes to the United States, China, Japan and South Korea. Barley goes almost entirely to China. Wine heads to China and the United Kingdom. Circles are sized for the selected product only, so check the legend when you switch. Source: DFAT trade statistical pivot tables.</p>
+        </div>
+
+        <div class="chart-block">
+          <h3>Each market buys a very different basket</h3>
+          <p class="sub">Each row is a market. Row height shows how much it buys in total, and the coloured blocks show what it buys, 2025. <span class="how">Hover a block for its value</span></p>
+          <div id="chart-marimekko" class="chart"></div>
+          <p class="note">The United States spends 60% of its Australian food bill on beef. The Philippines and Indonesia mostly buy grain to feed fast-growing populations. China buys a broad mix, which is why trade barriers there hit so many industries at once. Source: DFAT trade statistical pivot tables.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 4. A CHANGING TABLE ===================== -->
+    <section class="chapter" id="changing-table">
+      <div class="wrap">
+        <p class="chapter-num">04</p>
+        <h2>A changing table</h2>
+        <p class="lede">Twenty years ago Japan was the customer that mattered most. Today it is China, and the last few years have shown how risky it can be to lean on a single buyer.</p>
+
+        <div class="pure-g">
+          <div class="pure-u-1 pure-u-md-5-12 side-text text-col-left">
+            <h3>Japan out, China in</h3>
+            <p>In 2006 <span class="hl-soil">Japan</span> bought <strong>22%</strong> of our food exports. By 2025 that had fallen to <strong>9%</strong>. Japan still buys about $6.5 billion a year, not far off its 2022 record, but other markets have grown much faster.</p>
+            <p><span class="hl-green">China's</span> share jumped from 4% to <strong>20%</strong>. Southeast Asian markets such as the Philippines and Vietnam also more than doubled their share. The United Kingdom, once a top-five market, now buys less than 2%.</p>
+          </div>
+          <div class="pure-u-1 pure-u-md-7-12 chart-block">
+            <h3>Share of Australia's food exports, 2006 vs 2025</h3>
+            <p class="sub">Selected markets. <span class="how">Hover a point for the dollar value</span></p>
+            <div id="chart-slope" class="chart"></div>
+            <p class="note">"Held steady" means a change of less than one percentage point. Source: DFAT trade statistical pivot tables.</p>
+          </div>
+        </div>
+
+        <div class="chart-block">
+          <h3>China's share climbed for a decade, then fell sharply</h3>
+          <p class="sub">Share of food exports going to the five biggest markets of 2025. China sits on the baseline so its share is easy to compare across years. <span class="how">Click a market in the legend to highlight it (shift-click for more than one)</span></p>
+          <div id="chart-stacked" class="chart"></div>
+          <p class="note">From 2020 China placed tariffs and import halts on several Australian foods. Its share fell from 26% in 2019 to 16% in 2021, then recovered to 20% by 2025 as the barriers were removed. Meanwhile the <span class="hl-ocean">United States</span> more than doubled its purchases, from $4.2 billion in 2021 to $9.8 billion in 2025, mostly beef. Source: DFAT trade statistical pivot tables.</p>
+        </div>
+
+        <div class="pure-g">
+          <div class="pure-u-1 pure-u-md-7-12 chart-block">
+            <h3>Four products caught in the dispute with China</h3>
+            <p class="sub">Exports to China before (2019), during (2021) and after (2025) the trade barriers. <span class="how">Hover a dot for the exact value</span></p>
+            <div id="chart-dumbbell" class="chart"></div>
+            <p class="note">Wine includes all alcoholic beverages; lobster includes all crustaceans. 2019 barley sales were low partly because of drought. Sources: DFAT trade statistical pivot tables; tariff dates from news reports listed below.</p>
+          </div>
+          <div class="pure-u-1 pure-u-md-5-12 side-text text-col-right">
+            <h3>Shut out, then let back in</h3>
+            <p>In 2020 China placed an 80% duty on Australian <span class="hl-wheat">barley</span>, then large tariffs on <span class="hl-wine">wine</span>, and informally halted <span class="hl-soil">rock lobster</span>. By 2021 barley sales to China had fallen to <strong>zero</strong> and wine had dropped from $1.2 billion to $63 million.</p>
+            <p>The barriers were lifted between 2023 and 2024: barley in August 2023, wine in March 2024 and lobster in December 2024. Barley sales to China reached a 20-year high in 2025. Wine and lobster have recovered only part of what they lost.</p>
+            <div class="callout">When one buyer takes a fifth of everything, a single decision in Beijing can wipe out an industry's main market.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TAKEAWAYS ===================== -->
+    <section class="chapter" id="takeaways">
+      <div class="wrap">
+        <p class="chapter-num">05</p>
+        <h2>What it all means</h2>
+        <div class="takeaways pure-g">
+          <div class="pure-u-1 pure-u-md-1-3"><div class="takeaway">
+            <h3>Food exports are big and growing</h3>
+            <p>At $63 billion a year, food is one of Australia's most important exports, led by grain and beef.</p>
+          </div></div>
+          <div class="pure-u-1 pure-u-md-1-3"><div class="takeaway">
+            <h3>The weather still decides a lot</h3>
+            <p>Good harvests can add billions to grain sales, while droughts take them away, so totals swing from year to year.</p>
+          </div></div>
+          <div class="pure-u-1 pure-u-md-1-3"><div class="takeaway">
+            <h3>Spreading the risk matters</h3>
+            <p>China's barriers showed the cost of relying on one buyer. Growth in the US, Southeast Asia and the Middle East now spreads that risk.</p>
+          </div></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Embed the Vega-Lite charts -->
+  <script src="js/main.js"></script>
+</body>
+</html>

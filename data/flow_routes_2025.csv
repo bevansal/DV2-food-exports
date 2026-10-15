@@ -1,0 +1,31 @@
+country,rank,value,share,point,order,lon,lat
+China,1,14333.9,19.74,Australia,1,133.5,-25.5
+China,1,14333.9,19.74,Market,2,98.77,36.8
+United States,2,9787.7,13.48,Australia,1,133.5,-25.5
+United States,2,9787.7,13.48,Market,2,-99.31,37.24
+Japan,3,6483.6,8.93,Australia,1,133.5,-25.5
+Japan,3,6483.6,8.93,Market,2,138.35,36.09
+South Korea,4,4907.2,6.76,Australia,1,133.5,-25.5
+South Korea,4,4907.2,6.76,Market,2,127.9,36.21
+Indonesia,5,4436.5,6.11,Australia,1,133.5,-25.5
+Indonesia,5,4436.5,6.11,Market,2,110.4,-7.3
+New Zealand,6,2675.8,3.69,Australia,1,133.5,-25.5
+New Zealand,6,2675.8,3.69,Market,2,175.2,-39.3
+Philippines,7,2253.5,3.1,Australia,1,133.5,-25.5
+Philippines,7,2253.5,3.1,Market,2,120.76,15.67
+Vietnam,8,2059.3,2.84,Australia,1,133.5,-25.5
+Vietnam,8,2059.3,2.84,Market,2,107.78,15.99
+UAE,9,1912.5,2.63,Australia,1,133.5,-25.5
+UAE,9,1912.5,2.63,Market,2,54.99,24.28
+Thailand,10,1902.3,2.62,Australia,1,133.5,-25.5
+Thailand,10,1902.3,2.62,Market,2,101.66,13.04
+Malaysia,11,1803.1,2.48,Australia,1,133.5,-25.5
+Malaysia,11,1803.1,2.48,Market,2,101.7,3.6
+India,12,1546.5,2.13,Australia,1,133.5,-25.5
+India,12,1546.5,2.13,Market,2,79.18,21.87
+Singapore,13,1451.0,2.0,Australia,1,133.5,-25.5
+Singapore,13,1451.0,2.0,Market,2,103.82,1.35
+Canada,14,1310.6,1.81,Australia,1,133.5,-25.5
+Canada,14,1310.6,1.81,Market,2,-110.24,56.7
+Taiwan,15,1124.2,1.55,Australia,1,133.5,-25.5
+Taiwan,15,1124.2,1.55,Market,2,120.99,23.97

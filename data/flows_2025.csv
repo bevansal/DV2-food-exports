@@ -1,0 +1,16 @@
+rank,country,value,share,lon,lat,value_label,label_side,show_label
+1,China,14333.86,19.74,98.77,36.8,$14.3b,left,True
+2,United States,9787.68,13.48,-99.31,37.24,$9.8b,right,True
+3,Japan,6483.58,8.93,138.35,36.09,$6.5b,right,True
+4,South Korea,4907.19,6.76,127.9,36.21,$4.9b,above,True
+5,Indonesia,4436.51,6.11,110.4,-7.3,$4.4b,left,True
+6,New Zealand,2675.83,3.69,175.2,-39.3,$2.7b,right,True
+7,Philippines,2253.5,3.1,120.76,15.67,$2.3b,right,True
+8,Vietnam,2059.34,2.84,107.78,15.99,$2.1b,left,True
+9,UAE,1912.51,2.63,54.99,24.28,$1.9b,left,True
+10,Thailand,1902.29,2.62,101.66,13.04,$1.9b,right,False
+11,Malaysia,1803.06,2.48,101.7,3.6,$1.8b,right,False
+12,India,1546.46,2.13,79.18,21.87,$1.5b,left,True
+13,Singapore,1450.99,2.0,103.82,1.35,$1.5b,right,False
+14,Canada,1310.6,1.81,-110.24,56.7,$1.3b,right,True
+15,Taiwan,1124.25,1.55,120.99,23.97,$1.1b,right,False

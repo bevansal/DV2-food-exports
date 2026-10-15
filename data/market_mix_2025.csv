@@ -1,0 +1,73 @@
+market,commodity,value,share,share_label,x0,x1,y0,y1,x_mid,y_mid,show_share,market_label,first
+China,Beef,3485.4,24.3,24%,0.0,0.24316,0.0,0.19745,0.12158,0.09872,True,China  $14.3b,True
+China,"Lamb, other meat & live animals",1051.1,7.3,7%,0.24316,0.31649,0.0,0.19745,0.27982,0.09872,False,China  $14.3b,False
+China,Grains,4266.2,29.8,30%,0.31649,0.61412,0.0,0.19745,0.4653,0.09872,True,China  $14.3b,False
+China,Canola & oilseeds,302.6,2.1,2%,0.61412,0.63523,0.0,0.19745,0.62467,0.09872,False,China  $14.3b,False
+China,Dairy,956.2,6.7,7%,0.63523,0.70194,0.0,0.19745,0.66858,0.09872,False,China  $14.3b,False
+China,"Fruit, nuts & vegetables",1513.7,10.6,11%,0.70194,0.80754,0.0,0.19745,0.75474,0.09872,False,China  $14.3b,False
+China,Wine & spirits,742.1,5.2,5%,0.80754,0.85931,0.0,0.19745,0.83343,0.09872,False,China  $14.3b,False
+China,"Seafood, sugar & other",2016.6,14.1,14%,0.85931,1.0,0.0,0.19745,0.92966,0.09872,True,China  $14.3b,False
+United States,Beef,5855.0,59.8,60%,0.0,0.5982,0.19745,0.33227,0.2991,0.26486,True,United States  $9.8b,True
+United States,"Lamb, other meat & live animals",2055.7,21.0,21%,0.5982,0.80823,0.19745,0.33227,0.70321,0.26486,True,United States  $9.8b,False
+United States,Grains,22.9,0.2,0%,0.80823,0.81057,0.19745,0.33227,0.8094,0.26486,False,United States  $9.8b,False
+United States,Canola & oilseeds,30.6,0.3,0%,0.81057,0.8137,0.19745,0.33227,0.81213,0.26486,False,United States  $9.8b,False
+United States,Dairy,28.9,0.3,0%,0.8137,0.81665,0.19745,0.33227,0.81517,0.26486,False,United States  $9.8b,False
+United States,"Fruit, nuts & vegetables",142.1,1.5,1%,0.81665,0.83116,0.19745,0.33227,0.8239,0.26486,False,United States  $9.8b,False
+United States,Wine & spirits,355.3,3.6,4%,0.83116,0.86747,0.19745,0.33227,0.84931,0.26486,False,United States  $9.8b,False
+United States,"Seafood, sugar & other",1297.2,13.3,13%,0.86747,1.0,0.19745,0.33227,0.93373,0.26486,True,United States  $9.8b,False
+Japan,Beef,2486.0,38.3,38%,0.0,0.38343,0.33227,0.42158,0.19172,0.37692,True,Japan  $6.5b,True
+Japan,"Lamb, other meat & live animals",666.9,10.3,10%,0.38343,0.48629,0.33227,0.42158,0.43486,0.37692,False,Japan  $6.5b,False
+Japan,Grains,869.0,13.4,13%,0.48629,0.62032,0.33227,0.42158,0.5533,0.37692,True,Japan  $6.5b,False
+Japan,Canola & oilseeds,352.1,5.4,5%,0.62032,0.67463,0.33227,0.42158,0.64747,0.37692,False,Japan  $6.5b,False
+Japan,Dairy,457.8,7.1,7%,0.67463,0.74524,0.33227,0.42158,0.70994,0.37692,False,Japan  $6.5b,False
+Japan,"Fruit, nuts & vegetables",247.5,3.8,4%,0.74524,0.78342,0.33227,0.42158,0.76433,0.37692,False,Japan  $6.5b,False
+Japan,Wine & spirits,53.1,0.8,1%,0.78342,0.7916,0.33227,0.42158,0.78751,0.37692,False,Japan  $6.5b,False
+Japan,"Seafood, sugar & other",1351.2,20.8,21%,0.7916,1.0,0.33227,0.42158,0.8958,0.37692,True,Japan  $6.5b,False
+South Korea,Beef,2475.8,50.5,50%,0.0,0.50452,0.42158,0.48917,0.25226,0.45538,True,South Korea  $4.9b,True
+South Korea,"Lamb, other meat & live animals",551.7,11.2,11%,0.50452,0.61695,0.42158,0.48917,0.56074,0.45538,False,South Korea  $4.9b,False
+South Korea,Grains,685.3,14.0,14%,0.61695,0.75661,0.42158,0.48917,0.68678,0.45538,True,South Korea  $4.9b,False
+South Korea,Canola & oilseeds,12.0,0.2,0%,0.75661,0.75905,0.42158,0.48917,0.75783,0.45538,False,South Korea  $4.9b,False
+South Korea,Dairy,129.1,2.6,3%,0.75905,0.78536,0.42158,0.48917,0.7722,0.45538,False,South Korea  $4.9b,False
+South Korea,"Fruit, nuts & vegetables",148.1,3.0,3%,0.78536,0.81555,0.42158,0.48917,0.80045,0.45538,False,South Korea  $4.9b,False
+South Korea,Wine & spirits,50.3,1.0,1%,0.81555,0.8258,0.42158,0.48917,0.82067,0.45538,False,South Korea  $4.9b,False
+South Korea,"Seafood, sugar & other",854.8,17.4,17%,0.8258,1.0,0.42158,0.48917,0.9129,0.45538,True,South Korea  $4.9b,False
+Indonesia,Beef,581.3,13.1,13%,0.0,0.13102,0.48917,0.55029,0.06551,0.51973,True,Indonesia  $4.4b,True
+Indonesia,"Lamb, other meat & live animals",924.6,20.8,21%,0.13102,0.33943,0.48917,0.55029,0.23522,0.51973,True,Indonesia  $4.4b,False
+Indonesia,Grains,1884.9,42.5,42%,0.33943,0.76428,0.48917,0.55029,0.55186,0.51973,True,Indonesia  $4.4b,False
+Indonesia,Canola & oilseeds,0.7,0.0,0%,0.76428,0.76445,0.48917,0.55029,0.76437,0.51973,False,Indonesia  $4.4b,False
+Indonesia,Dairy,346.5,7.8,8%,0.76445,0.84256,0.48917,0.55029,0.80351,0.51973,False,Indonesia  $4.4b,False
+Indonesia,"Fruit, nuts & vegetables",213.7,4.8,5%,0.84256,0.89073,0.48917,0.55029,0.86665,0.51973,False,Indonesia  $4.4b,False
+Indonesia,Wine & spirits,17.2,0.4,0%,0.89073,0.89461,0.48917,0.55029,0.89267,0.51973,False,Indonesia  $4.4b,False
+Indonesia,"Seafood, sugar & other",467.6,10.5,11%,0.89461,1.0,0.48917,0.55029,0.9473,0.51973,False,Indonesia  $4.4b,False
+New Zealand,Beef,117.4,4.4,4%,0.0,0.04388,0.55029,0.58714,0.02194,0.56871,False,New Zealand  $2.7b,True
+New Zealand,"Lamb, other meat & live animals",132.2,4.9,5%,0.04388,0.09329,0.55029,0.58714,0.06859,0.56871,False,New Zealand  $2.7b,False
+New Zealand,Grains,537.7,20.1,20%,0.09329,0.29425,0.55029,0.58714,0.19377,0.56871,False,New Zealand  $2.7b,False
+New Zealand,Canola & oilseeds,5.1,0.2,0%,0.29425,0.29614,0.55029,0.58714,0.29519,0.56871,False,New Zealand  $2.7b,False
+New Zealand,Dairy,142.0,5.3,5%,0.29614,0.34922,0.55029,0.58714,0.32268,0.56871,False,New Zealand  $2.7b,False
+New Zealand,"Fruit, nuts & vegetables",208.8,7.8,8%,0.34922,0.42725,0.55029,0.58714,0.38824,0.56871,False,New Zealand  $2.7b,False
+New Zealand,Wine & spirits,289.3,10.8,11%,0.42725,0.53539,0.55029,0.58714,0.48132,0.56871,False,New Zealand  $2.7b,False
+New Zealand,"Seafood, sugar & other",1243.2,46.5,46%,0.53539,1.0,0.55029,0.58714,0.76769,0.56871,False,New Zealand  $2.7b,False
+Philippines,Beef,227.0,10.1,10%,0.0,0.10074,0.58714,0.61819,0.05037,0.60266,False,Philippines  $2.3b,True
+Philippines,"Lamb, other meat & live animals",98.1,4.4,4%,0.10074,0.14428,0.58714,0.61819,0.12251,0.60266,False,Philippines  $2.3b,False
+Philippines,Grains,1523.7,67.6,68%,0.14428,0.82043,0.58714,0.61819,0.48236,0.60266,False,Philippines  $2.3b,False
+Philippines,Canola & oilseeds,0.0,0.0,0%,0.82043,0.82044,0.58714,0.61819,0.82043,0.60266,False,Philippines  $2.3b,False
+Philippines,Dairy,141.2,6.3,6%,0.82044,0.88309,0.58714,0.61819,0.85176,0.60266,False,Philippines  $2.3b,False
+Philippines,"Fruit, nuts & vegetables",92.8,4.1,4%,0.88309,0.92428,0.58714,0.61819,0.90368,0.60266,False,Philippines  $2.3b,False
+Philippines,Wine & spirits,16.6,0.7,1%,0.92428,0.93164,0.58714,0.61819,0.92796,0.60266,False,Philippines  $2.3b,False
+Philippines,"Seafood, sugar & other",154.1,6.8,7%,0.93164,1.0,0.58714,0.61819,0.96582,0.60266,False,Philippines  $2.3b,False
+Vietnam,Beef,203.2,9.9,10%,0.0,0.09867,0.61819,0.64655,0.04934,0.63237,False,Vietnam  $2.1b,True
+Vietnam,"Lamb, other meat & live animals",149.3,7.2,7%,0.09867,0.17117,0.61819,0.64655,0.13492,0.63237,False,Vietnam  $2.1b,False
+Vietnam,Grains,833.9,40.5,40%,0.17117,0.57613,0.61819,0.64655,0.37365,0.63237,False,Vietnam  $2.1b,False
+Vietnam,Canola & oilseeds,0.7,0.0,0%,0.57613,0.57647,0.61819,0.64655,0.5763,0.63237,False,Vietnam  $2.1b,False
+Vietnam,Dairy,146.5,7.1,7%,0.57647,0.64761,0.61819,0.64655,0.61204,0.63237,False,Vietnam  $2.1b,False
+Vietnam,"Fruit, nuts & vegetables",273.2,13.3,13%,0.64761,0.78026,0.61819,0.64655,0.71394,0.63237,False,Vietnam  $2.1b,False
+Vietnam,Wine & spirits,10.8,0.5,1%,0.78026,0.78553,0.61819,0.64655,0.7829,0.63237,False,Vietnam  $2.1b,False
+Vietnam,"Seafood, sugar & other",441.7,21.4,21%,0.78553,1.0,0.61819,0.64655,0.89277,0.63237,False,Vietnam  $2.1b,False
+Rest of world,Beef,3286.3,12.8,13%,0.0,0.12808,0.64655,1.0,0.06404,0.82328,True,Rest of world  $25.7b,True
+Rest of world,"Lamb, other meat & live animals",4130.6,16.1,16%,0.12808,0.28906,0.64655,1.0,0.20857,0.82328,True,Rest of world  $25.7b,False
+Rest of world,Grains,5157.4,20.1,20%,0.28906,0.49005,0.64655,1.0,0.38955,0.82328,True,Rest of world  $25.7b,False
+Rest of world,Canola & oilseeds,3910.0,15.2,15%,0.49005,0.64243,0.64655,1.0,0.56624,0.82328,True,Rest of world  $25.7b,False
+Rest of world,Dairy,1208.6,4.7,5%,0.64243,0.68954,0.64655,1.0,0.66598,0.82328,False,Rest of world  $25.7b,False
+Rest of world,"Fruit, nuts & vegetables",4365.4,17.0,17%,0.68954,0.85966,0.64655,1.0,0.7746,0.82328,True,Rest of world  $25.7b,False
+Rest of world,Wine & spirits,1436.8,5.6,6%,0.85966,0.91566,0.64655,1.0,0.88766,0.82328,False,Rest of world  $25.7b,False
+Rest of world,"Seafood, sugar & other",2164.1,8.4,8%,0.91566,1.0,0.64655,1.0,0.95783,0.82328,False,Rest of world  $25.7b,False

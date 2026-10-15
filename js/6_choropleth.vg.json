@@ -1,0 +1,197 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Choropleth map: value of Australian food exports to each country, with a slider to change the calendar year (2006 to 2025). Equal Earth projection.",
+  "width": "container",
+  "height": 470,
+  "params": [
+    {
+      "name": "year",
+      "value": 2025,
+      "bind": {
+        "input": "range",
+        "min": 2006,
+        "max": 2025,
+        "step": 1,
+        "name": "Year: "
+      }
+    }
+  ],
+  "projection": {
+    "type": "equalEarth"
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "data/ne_110m_admin_0_countries.topojson",
+        "format": {
+          "type": "topojson",
+          "feature": "ne_110m_admin_0_countries"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#E2DCCF",
+        "stroke": "white",
+        "strokeWidth": 0.4
+      }
+    },
+    {
+      "data": {
+        "url": "data/ne_110m_admin_0_countries.topojson",
+        "format": {
+          "type": "topojson",
+          "feature": "ne_110m_admin_0_countries"
+        }
+      },
+      "transform": [
+        {
+          "calculate": "datum.properties.NAME + '_' + year",
+          "as": "key"
+        },
+        {
+          "lookup": "key",
+          "from": {
+            "data": {
+              "url": "data/choropleth_by_year.csv"
+            },
+            "key": "key",
+            "fields": [
+              "country",
+              "value",
+              "share"
+            ]
+          }
+        },
+        {
+          "filter": "datum.value != null"
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "stroke": "white",
+        "strokeWidth": 0.4
+      },
+      "encoding": {
+        "color": {
+          "field": "value",
+          "type": "quantitative",
+          "scale": {
+            "type": "threshold",
+            "domain": [
+              10,
+              100,
+              500,
+              1000,
+              2500,
+              5000,
+              10000
+            ],
+            "range": [
+              "#F7EBCB",
+              "#F0D48F",
+              "#E6B25A",
+              "#D88A3A",
+              "#BF6128",
+              "#9B421E",
+              "#6E2B14",
+              "#40180B"
+            ]
+          },
+          "legend": null
+        },
+        "tooltip": [
+          {
+            "field": "country",
+            "type": "nominal",
+            "title": "Country"
+          },
+          {
+            "field": "value",
+            "type": "quantitative",
+            "title": "Food exports (A$m)",
+            "format": "$,.0f"
+          },
+          {
+            "field": "share",
+            "type": "quantitative",
+            "title": "Share of Australia's food exports (%)",
+            "format": ".1f"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "data/ne_110m_admin_0_countries.topojson",
+        "format": {
+          "type": "topojson",
+          "feature": "ne_110m_admin_0_countries"
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.properties.NAME == 'Australia'"
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "fill": "#3E7C4F",
+        "stroke": "white",
+        "strokeWidth": 0.5
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "longitude": 134,
+            "latitude": -24,
+            "label": "Australia"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "color": "white",
+        "fontSize": 11,
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "latitude",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        }
+      }
+    }
+  ],
+  "config": {
+    "background": "#FAF6EE",
+    "font": "'Source Sans 3', Arial, sans-serif",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelColor": "#5C564C",
+      "titleColor": "#3A362F",
+      "gridColor": "#E8E1D3",
+      "domainColor": "#BDB4A4",
+      "tickColor": "#BDB4A4",
+      "labelFontSize": 12,
+      "titleFontSize": 12
+    },
+    "legend": {
+      "labelColor": "#3A362F",
+      "titleColor": "#3A362F",
+      "labelFontSize": 12,
+      "titleFontSize": 12
+    }
+  }
+}

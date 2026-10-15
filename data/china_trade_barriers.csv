@@ -1,0 +1,13 @@
+commodity,year,value,period,value_label
+Barley,2019,590.7,2019 (before),$591m
+Barley,2021,0.0,2021 (trade barriers),$0
+Barley,2025,2418.2,2025 (after),$2.4b
+Beef,2019,2671.9,2019 (before),$2.7b
+Beef,2021,1679.0,2021 (trade barriers),$1.7b
+Beef,2025,3485.4,2025 (after),$3.5b
+Rock lobster & crustaceans,2019,842.6,2019 (before),$843m
+Rock lobster & crustaceans,2021,93.5,2021 (trade barriers),$94m
+Rock lobster & crustaceans,2025,610.6,2025 (after),$611m
+Wine,2019,1238.6,2019 (before),$1.2b
+Wine,2021,63.0,2021 (trade barriers),$63m
+Wine,2025,722.5,2025 (after),$722m

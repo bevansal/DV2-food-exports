@@ -1,0 +1,101 @@
+cell,col,row,category,squares,value
+0,0,0,Grains & pulses,30,19137
+1,1,0,Grains & pulses,30,19137
+2,2,0,Grains & pulses,30,19137
+3,3,0,Grains & pulses,30,19137
+4,4,0,Grains & pulses,30,19137
+5,5,0,Grains & pulses,30,19137
+6,6,0,Grains & pulses,30,19137
+7,7,0,Grains & pulses,30,19137
+8,8,0,Grains & pulses,30,19137
+9,9,0,Grains & pulses,30,19137
+10,0,1,Grains & pulses,30,19137
+11,1,1,Grains & pulses,30,19137
+12,2,1,Grains & pulses,30,19137
+13,3,1,Grains & pulses,30,19137
+14,4,1,Grains & pulses,30,19137
+15,5,1,Grains & pulses,30,19137
+16,6,1,Grains & pulses,30,19137
+17,7,1,Grains & pulses,30,19137
+18,8,1,Grains & pulses,30,19137
+19,9,1,Grains & pulses,30,19137
+20,0,2,Grains & pulses,30,19137
+21,1,2,Grains & pulses,30,19137
+22,2,2,Grains & pulses,30,19137
+23,3,2,Grains & pulses,30,19137
+24,4,2,Grains & pulses,30,19137
+25,5,2,Grains & pulses,30,19137
+26,6,2,Grains & pulses,30,19137
+27,7,2,Grains & pulses,30,19137
+28,8,2,Grains & pulses,30,19137
+29,9,2,Grains & pulses,30,19137
+30,0,3,Beef,26,16095
+31,1,3,Beef,26,16095
+32,2,3,Beef,26,16095
+33,3,3,Beef,26,16095
+34,4,3,Beef,26,16095
+35,5,3,Beef,26,16095
+36,6,3,Beef,26,16095
+37,7,3,Beef,26,16095
+38,8,3,Beef,26,16095
+39,9,3,Beef,26,16095
+40,0,4,Beef,26,16095
+41,1,4,Beef,26,16095
+42,2,4,Beef,26,16095
+43,3,4,Beef,26,16095
+44,4,4,Beef,26,16095
+45,5,4,Beef,26,16095
+46,6,4,Beef,26,16095
+47,7,4,Beef,26,16095
+48,8,4,Beef,26,16095
+49,9,4,Beef,26,16095
+50,0,5,Beef,26,16095
+51,1,5,Beef,26,16095
+52,2,5,Beef,26,16095
+53,3,5,Beef,26,16095
+54,4,5,Beef,26,16095
+55,5,5,Beef,26,16095
+56,6,5,"Lamb, other meat & live animals",14,8911
+57,7,5,"Lamb, other meat & live animals",14,8911
+58,8,5,"Lamb, other meat & live animals",14,8911
+59,9,5,"Lamb, other meat & live animals",14,8911
+60,0,6,"Lamb, other meat & live animals",14,8911
+61,1,6,"Lamb, other meat & live animals",14,8911
+62,2,6,"Lamb, other meat & live animals",14,8911
+63,3,6,"Lamb, other meat & live animals",14,8911
+64,4,6,"Lamb, other meat & live animals",14,8911
+65,5,6,"Lamb, other meat & live animals",14,8911
+66,6,6,"Lamb, other meat & live animals",14,8911
+67,7,6,"Lamb, other meat & live animals",14,8911
+68,8,6,"Lamb, other meat & live animals",14,8911
+69,9,6,"Lamb, other meat & live animals",14,8911
+70,0,7,Canola & oilseeds,8,5238
+71,1,7,Canola & oilseeds,8,5238
+72,2,7,Canola & oilseeds,8,5238
+73,3,7,Canola & oilseeds,8,5238
+74,4,7,Canola & oilseeds,8,5238
+75,5,7,Canola & oilseeds,8,5238
+76,6,7,Canola & oilseeds,8,5238
+77,7,7,Canola & oilseeds,8,5238
+78,8,7,"Fruit, nuts & vegetables",6,3766
+79,9,7,"Fruit, nuts & vegetables",6,3766
+80,0,8,"Fruit, nuts & vegetables",6,3766
+81,1,8,"Fruit, nuts & vegetables",6,3766
+82,2,8,"Fruit, nuts & vegetables",6,3766
+83,3,8,"Fruit, nuts & vegetables",6,3766
+84,4,8,Dairy,6,3727
+85,5,8,Dairy,6,3727
+86,6,8,Dairy,6,3727
+87,7,8,Dairy,6,3727
+88,8,8,Dairy,6,3727
+89,9,8,Dairy,6,3727
+90,0,9,Seafood & sugar,6,3530
+91,1,9,Seafood & sugar,6,3530
+92,2,9,Seafood & sugar,6,3530
+93,3,9,Seafood & sugar,6,3530
+94,4,9,Seafood & sugar,6,3530
+95,5,9,Seafood & sugar,6,3530
+96,6,9,Wine,4,2609
+97,7,9,Wine,4,2609
+98,8,9,Wine,4,2609
+99,9,9,Wine,4,2609

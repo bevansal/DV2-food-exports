@@ -1,0 +1,121 @@
+year,market,value,share,stack_order
+2006,All other markets,10547.8,48.25,5
+2006,China,896.9,4.1,0
+2006,Indonesia,958.5,4.38,4
+2006,Japan,4800.6,21.96,2
+2006,South Korea,1692.0,7.74,3
+2006,United States,2966.4,13.57,1
+2007,All other markets,9949.9,49.15,5
+2007,China,733.8,3.62,0
+2007,Indonesia,1074.2,5.31,4
+2007,Japan,4171.0,20.6,2
+2007,South Korea,1430.4,7.07,3
+2007,United States,2886.2,14.26,1
+2008,All other markets,12358.9,52.52,5
+2008,China,1119.7,4.76,0
+2008,Indonesia,1361.7,5.79,4
+2008,Japan,4650.7,19.76,2
+2008,South Korea,1542.2,6.55,3
+2008,United States,2498.6,10.62,1
+2009,All other markets,13358.2,53.11,5
+2009,China,1173.1,4.66,0
+2009,Indonesia,1951.2,7.76,4
+2009,Japan,4493.2,17.87,2
+2009,South Korea,1655.6,6.58,3
+2009,United States,2519.5,10.02,1
+2010,All other markets,13551.3,52.06,5
+2010,China,1598.5,6.14,0
+2010,Indonesia,2351.6,9.03,4
+2010,Japan,4341.5,16.68,2
+2010,South Korea,2097.1,8.06,3
+2010,United States,2089.1,8.03,1
+2011,All other markets,15923.3,54.94,5
+2011,China,1943.7,6.71,0
+2011,Indonesia,2268.7,7.83,4
+2011,Japan,4499.4,15.52,2
+2011,South Korea,2337.0,8.06,3
+2011,United States,2012.2,6.94,1
+2012,All other markets,16821.8,55.3,5
+2012,China,2598.4,8.54,0
+2012,Indonesia,2189.4,7.2,4
+2012,Japan,4259.4,14.0,2
+2012,South Korea,2300.6,7.56,3
+2012,United States,2250.0,7.4,1
+2013,All other markets,18003.4,54.32,5
+2013,China,4156.0,12.54,0
+2013,Indonesia,2559.4,7.72,4
+2013,Japan,4093.1,12.35,2
+2013,South Korea,2006.4,6.05,3
+2013,United States,2324.5,7.01,1
+2014,All other markets,18284.3,50.26,5
+2014,China,4542.0,12.48,0
+2014,Indonesia,3129.7,8.6,4
+2014,Japan,4023.2,11.06,2
+2014,South Korea,2412.0,6.63,3
+2014,United States,3989.5,10.97,1
+2015,All other markets,19812.5,47.98,5
+2015,China,6154.6,14.91,0
+2015,Indonesia,3161.8,7.66,4
+2015,Japan,4420.0,10.7,2
+2015,South Korea,2824.1,6.84,3
+2015,United States,4919.5,11.91,1
+2016,All other markets,18950.2,48.73,5
+2016,China,5498.9,14.14,0
+2016,Indonesia,3122.1,8.03,4
+2016,Japan,4547.8,11.7,2
+2016,South Korea,3226.3,8.3,3
+2016,United States,3539.2,9.1,1
+2017,All other markets,21007.0,48.13,5
+2017,China,7794.6,17.86,0
+2017,Indonesia,3119.9,7.15,4
+2017,Japan,4915.2,11.26,2
+2017,South Korea,3172.8,7.27,3
+2017,United States,3634.1,8.33,1
+2018,All other markets,17730.2,42.86,5
+2018,China,8948.4,21.63,0
+2018,Indonesia,2546.3,6.16,4
+2018,Japan,5341.1,12.91,2
+2018,South Korea,3077.3,7.44,3
+2018,United States,3719.8,8.99,1
+2019,All other markets,17241.7,39.46,5
+2019,China,11126.0,25.46,0
+2019,Indonesia,2174.5,4.98,4
+2019,Japan,5504.1,12.6,2
+2019,South Korea,3247.0,7.43,3
+2019,United States,4405.8,10.08,1
+2020,All other markets,17269.2,41.18,5
+2020,China,9888.5,23.58,0
+2020,Indonesia,2304.9,5.5,4
+2020,Japan,5128.4,12.23,2
+2020,South Korea,3211.5,7.66,3
+2020,United States,4134.8,9.86,1
+2021,All other markets,25763.5,49.62,5
+2021,China,8499.3,16.37,0
+2021,Indonesia,4185.3,8.06,4
+2021,Japan,5472.8,10.54,2
+2021,South Korea,3763.9,7.25,3
+2021,United States,4241.0,8.17,1
+2022,All other markets,33499.9,50.37,5
+2022,China,11540.5,17.35,0
+2022,Indonesia,4404.7,6.62,4
+2022,Japan,7020.0,10.55,2
+2022,South Korea,4955.4,7.45,3
+2022,United States,5093.2,7.66,1
+2023,All other markets,31456.8,47.07,5
+2023,China,13185.9,19.73,0
+2023,Indonesia,4473.9,6.69,4
+2023,Japan,6905.6,10.33,2
+2023,South Korea,5108.9,7.64,3
+2023,United States,5703.2,8.53,1
+2024,All other markets,29036.8,45.44,5
+2024,China,12256.1,19.18,0
+2024,Indonesia,3964.5,6.2,4
+2024,Japan,6563.3,10.27,2
+2024,South Korea,4509.2,7.06,3
+2024,United States,7572.9,11.85,1
+2025,All other markets,32647.7,44.97,5
+2025,China,14333.9,19.74,0
+2025,Indonesia,4436.5,6.11,4
+2025,Japan,6483.6,8.93,2
+2025,South Korea,4907.2,6.76,3
+2025,United States,9787.7,13.48,1

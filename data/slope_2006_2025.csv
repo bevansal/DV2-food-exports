@@ -1,0 +1,15 @@
+country,year,year_label,share,value,direction,label,label_y
+China,2006,In 2006,4.1,896.9,Grew its share,China  4.1%,4.1
+China,2025,In 2025,19.74,14333.9,Grew its share,19.7%  China,19.74
+Japan,2006,In 2006,21.96,4800.6,Lost share,Japan  22.0%,21.96
+Japan,2025,In 2025,8.93,6483.6,Lost share,8.9%  Japan,8.93
+Philippines,2006,In 2006,1.16,253.5,Grew its share,Philippines  1.2%,1.71
+Philippines,2025,In 2025,3.1,2253.5,Grew its share,3.1%  Philippines,3.65
+South Korea,2006,In 2006,7.74,1692.0,Held steady,South Korea  7.7%,7.74
+South Korea,2025,In 2025,6.76,4907.2,Held steady,6.8%  South Korea,6.76
+United Kingdom,2006,In 2006,5.41,1182.4,Lost share,United Kingdom  5.4%,5.41
+United Kingdom,2025,In 2025,1.48,1072.4,Lost share,1.5%  United Kingdom,1.48
+United States,2006,In 2006,13.57,2966.4,Held steady,United States  13.6%,13.57
+United States,2025,In 2025,13.48,9787.7,Held steady,13.5%  United States,13.48
+Vietnam,2006,In 2006,0.83,181.8,Grew its share,Vietnam  0.8%,0.28
+Vietnam,2025,In 2025,2.84,2059.3,Grew its share,2.8%  Vietnam,2.29

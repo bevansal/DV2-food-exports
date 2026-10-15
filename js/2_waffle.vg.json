@@ -1,0 +1,103 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Waffle chart: how every $100 of Australian food exports in 2024-25 splits across commodity groups. Each square is $1.",
+  "width": 250,
+  "height": 250,
+  "data": {
+    "url": "data/waffle_2024_25.csv"
+  },
+  "mark": {
+    "type": "rect",
+    "cornerRadius": 3,
+    "stroke": "#FAF6EE",
+    "strokeWidth": 2.5
+  },
+  "encoding": {
+    "x": {
+      "field": "col",
+      "type": "ordinal",
+      "axis": null
+    },
+    "y": {
+      "field": "row",
+      "type": "ordinal",
+      "axis": null
+    },
+    "color": {
+      "field": "category",
+      "type": "nominal",
+      "title": null,
+      "scale": {
+        "domain": [
+          "Grains & pulses",
+          "Beef",
+          "Lamb, other meat & live animals",
+          "Canola & oilseeds",
+          "Fruit, nuts & vegetables",
+          "Dairy",
+          "Seafood & sugar",
+          "Wine"
+        ],
+        "range": [
+          "#D99A1E",
+          "#9E2A2B",
+          "#D4704A",
+          "#8F9A36",
+          "#3E7C4F",
+          "#7FA6C0",
+          "#2B5E7E",
+          "#6E2B57"
+        ]
+      },
+      "legend": {
+        "orient": "right",
+        "symbolType": "square",
+        "symbolSize": 180,
+        "labelFontSize": 13,
+        "labelLimit": 300,
+        "rowPadding": 9,
+        "labelExpr": "datum.label == 'Grains & pulses' ? '$30  Grains & pulses' : datum.label == 'Beef' ? '$26  Beef' : datum.label == 'Lamb, other meat & live animals' ? '$14  Lamb, other meat & live animals' : datum.label == 'Canola & oilseeds' ? '$8  Canola & oilseeds' : datum.label == 'Fruit, nuts & vegetables' ? '$6  Fruit, nuts & vegetables' : datum.label == 'Dairy' ? '$6  Dairy' : datum.label == 'Seafood & sugar' ? '$6  Seafood & sugar' : '$4  Wine'"
+      }
+    },
+    "tooltip": [
+      {
+        "field": "category",
+        "type": "nominal",
+        "title": "Commodity group"
+      },
+      {
+        "field": "squares",
+        "type": "quantitative",
+        "title": "Cents in every dollar"
+      },
+      {
+        "field": "value",
+        "type": "quantitative",
+        "title": "Exports 2024–25 (A$m)",
+        "format": "$,.0f"
+      }
+    ]
+  },
+  "config": {
+    "background": "#FAF6EE",
+    "font": "'Source Sans 3', Arial, sans-serif",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelColor": "#5C564C",
+      "titleColor": "#3A362F",
+      "gridColor": "#E8E1D3",
+      "domainColor": "#BDB4A4",
+      "tickColor": "#BDB4A4",
+      "labelFontSize": 12,
+      "titleFontSize": 12
+    },
+    "legend": {
+      "labelColor": "#3A362F",
+      "titleColor": "#3A362F",
+      "labelFontSize": 12,
+      "titleFontSize": 12
+    }
+  }
+}

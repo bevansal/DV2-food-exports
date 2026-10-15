@@ -1,0 +1,187 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "100% stacked bar chart: share of Australian food exports going to the top five markets of 2025 and all other markets, 2006 to 2025. China sits on the baseline so its share is easy to compare. Click a market in the legend to highlight it.",
+  "width": "container",
+  "height": 380,
+  "data": {
+    "url": "data/top5_share_by_year.csv"
+  },
+  "layer": [
+    {
+      "params": [
+        {
+          "name": "market_highlight",
+          "select": {
+            "type": "point",
+            "fields": [
+              "market"
+            ]
+          },
+          "bind": "legend"
+        }
+      ],
+      "mark": {
+        "type": "bar",
+        "width": {
+          "band": 0.82
+        }
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal",
+          "title": null,
+          "axis": {
+            "labelAngle": 0,
+            "values": [
+              2006,
+              2008,
+              2010,
+              2012,
+              2014,
+              2016,
+              2018,
+              2020,
+              2022,
+              2024
+            ],
+            "ticks": false
+          }
+        },
+        "y": {
+          "field": "share",
+          "type": "quantitative",
+          "stack": "normalize",
+          "title": "Share of food exports",
+          "axis": {
+            "format": "%",
+            "tickCount": 5
+          }
+        },
+        "color": {
+          "field": "market",
+          "type": "nominal",
+          "title": "Click a market to highlight it",
+          "scale": {
+            "domain": [
+              "China",
+              "United States",
+              "Japan",
+              "South Korea",
+              "Indonesia",
+              "All other markets"
+            ],
+            "range": [
+              "#B4532A",
+              "#2B5E7E",
+              "#8A8274",
+              "#ABA394",
+              "#CDC6B8",
+              "#EAE5DA"
+            ]
+          },
+          "legend": {
+            "orient": "top",
+            "direction": "horizontal",
+            "symbolType": "square",
+            "titleOrient": "left"
+          }
+        },
+        "order": {
+          "field": "stack_order",
+          "type": "quantitative"
+        },
+        "opacity": {
+          "condition": {
+            "param": "market_highlight",
+            "value": 1
+          },
+          "value": 0.3
+        },
+        "tooltip": [
+          {
+            "field": "market",
+            "type": "nominal",
+            "title": "Market"
+          },
+          {
+            "field": "year",
+            "type": "nominal",
+            "title": "Year"
+          },
+          {
+            "field": "share",
+            "type": "quantitative",
+            "title": "Share of food exports (%)",
+            "format": ".1f"
+          },
+          {
+            "field": "value",
+            "type": "quantitative",
+            "title": "Food exports (A$m)",
+            "format": "$,.0f"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "year": 2019,
+            "y": 0.7,
+            "label": "2019: China takes 26%"
+          },
+          {
+            "year": 2021,
+            "y": 0.62,
+            "label": "2021: trade barriers cut it to 16%"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "color": "#23211E",
+        "align": "center"
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        }
+      }
+    }
+  ],
+  "config": {
+    "background": "#FAF6EE",
+    "font": "'Source Sans 3', Arial, sans-serif",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelColor": "#5C564C",
+      "titleColor": "#3A362F",
+      "gridColor": "#E8E1D3",
+      "domainColor": "#BDB4A4",
+      "tickColor": "#BDB4A4",
+      "labelFontSize": 12,
+      "titleFontSize": 12
+    },
+    "legend": {
+      "labelColor": "#3A362F",
+      "titleColor": "#3A362F",
+      "labelFontSize": 12,
+      "titleFontSize": 12
+    }
+  }
+}

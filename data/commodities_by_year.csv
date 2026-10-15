@@ -1,0 +1,556 @@
+group,fy,year,value,share,rank,story
+Beef,1988–89,1989,1788.6,21.27,2,Beef
+Beef,1989–90,1990,2368.7,24.18,2,Beef
+Beef,1990–91,1991,2597.0,28.28,1,Beef
+Beef,1991–92,1992,2777.2,28.97,1,Beef
+Beef,1992–93,1993,2988.0,25.9,1,Beef
+Beef,1993–94,1994,3228.4,24.9,1,Beef
+Beef,1994–95,1995,2853.1,22.86,1,Beef
+Beef,1995–96,1996,2457.0,16.08,2,Beef
+Beef,1996–97,1997,2112.4,12.89,2,Beef
+Beef,1997–98,1998,2700.5,15.61,2,Beef
+Beef,1998–99,1999,2934.7,16.36,2,Beef
+Beef,1999–00,2000,3188.7,16.41,2,Beef
+Beef,2000–01,2001,4127.0,17.75,2,Beef
+Beef,2001–02,2002,4332.5,16.97,2,Beef
+Beef,2002–03,2003,3906.7,18.52,1,Beef
+Beef,2003–04,2004,3926.5,18.68,1,Beef
+Beef,2004–05,2005,4879.3,21.64,1,Beef
+Beef,2005–06,2006,4539.2,20.0,1,Beef
+Beef,2006–07,2007,4894.8,22.16,1,Beef
+Beef,2007–08,2008,4414.1,20.04,1,Beef
+Beef,2008–09,2009,5049.3,19.12,1,Beef
+Beef,2009–10,2010,4108.6,18.09,1,Beef
+Beef,2010–11,2011,4526.6,17.89,2,Beef
+Beef,2011–12,2012,4684.9,16.59,2,Beef
+Beef,2012–13,2013,5051.8,16.9,2,Beef
+Beef,2013–14,2014,6422.0,19.47,1,Beef
+Beef,2014–15,2015,9039.5,25.16,1,Beef
+Beef,2015–16,2016,8494.6,23.76,1,Beef
+Beef,2016–17,2017,7114.8,18.52,1,Beef
+Beef,2017–18,2018,7962.7,21.74,1,Beef
+Beef,2018–19,2019,9475.9,25.57,1,Beef
+Beef,2019–20,2020,11257.8,28.41,1,Beef
+Beef,2020–21,2021,8369.6,20.75,1,Beef
+Beef,2021–22,2022,9920.0,18.06,2,Beef
+Beef,2022–23,2023,10669.4,16.73,2,Beef
+Beef,2023–24,2024,12377.9,21.34,1,Beef
+Beef,2024–25,2025,16095.0,25.54,1,Beef
+Lamb & mutton,1988–89,1989,258.5,3.07,9,Other commodities
+Lamb & mutton,1989–90,1990,316.5,3.23,8,Other commodities
+Lamb & mutton,1990–91,1991,355.5,3.87,9,Other commodities
+Lamb & mutton,1991–92,1992,397.1,4.14,8,Other commodities
+Lamb & mutton,1992–93,1993,446.7,3.87,8,Other commodities
+Lamb & mutton,1993–94,1994,510.3,3.94,7,Other commodities
+Lamb & mutton,1994–95,1995,498.0,3.99,8,Other commodities
+Lamb & mutton,1995–96,1996,507.3,3.32,10,Other commodities
+Lamb & mutton,1996–97,1997,540.4,3.3,11,Other commodities
+Lamb & mutton,1997–98,1998,652.9,3.77,8,Other commodities
+Lamb & mutton,1998–99,1999,635.9,3.55,10,Other commodities
+Lamb & mutton,1999–00,2000,705.5,3.63,10,Other commodities
+Lamb & mutton,2000–01,2001,951.1,4.09,8,Other commodities
+Lamb & mutton,2001–02,2002,1139.6,4.46,8,Other commodities
+Lamb & mutton,2002–03,2003,1024.0,4.85,8,Other commodities
+Lamb & mutton,2003–04,2004,1045.7,4.98,6,Other commodities
+Lamb & mutton,2004–05,2005,1117.7,4.96,7,Other commodities
+Lamb & mutton,2005–06,2006,1223.3,5.39,7,Other commodities
+Lamb & mutton,2006–07,2007,1251.7,5.67,7,Other commodities
+Lamb & mutton,2007–08,2008,1278.2,5.8,6,Other commodities
+Lamb & mutton,2008–09,2009,1463.6,5.54,7,Other commodities
+Lamb & mutton,2009–10,2010,1388.7,6.11,6,Other commodities
+Lamb & mutton,2010–11,2011,1516.3,5.99,5,Other commodities
+Lamb & mutton,2011–12,2012,1493.0,5.29,9,Other commodities
+Lamb & mutton,2012–13,2013,1637.9,5.48,7,Other commodities
+Lamb & mutton,2013–14,2014,2305.6,6.99,4,Other commodities
+Lamb & mutton,2014–15,2015,2603.9,7.25,3,Other commodities
+Lamb & mutton,2015–16,2016,2470.0,6.91,3,Other commodities
+Lamb & mutton,2016–17,2017,2653.4,6.91,4,Other commodities
+Lamb & mutton,2017–18,2018,3282.2,8.96,3,Other commodities
+Lamb & mutton,2018–19,2019,3865.2,10.43,2,Other commodities
+Lamb & mutton,2019–20,2020,4056.4,10.24,2,Other commodities
+Lamb & mutton,2020–21,2021,3544.7,8.79,3,Other commodities
+Lamb & mutton,2021–22,2022,4511.9,8.21,4,Other commodities
+Lamb & mutton,2022–23,2023,4464.2,7.0,4,Other commodities
+Lamb & mutton,2023–24,2024,4783.4,8.25,4,Other commodities
+Lamb & mutton,2024–25,2025,5663.7,8.99,3,Other commodities
+Other meat,1988–89,1989,162.4,1.93,12,Other commodities
+Other meat,1989–90,1990,193.2,1.97,11,Other commodities
+Other meat,1990–91,1991,180.5,1.97,12,Other commodities
+Other meat,1991–92,1992,214.2,2.23,12,Other commodities
+Other meat,1992–93,1993,271.8,2.36,12,Other commodities
+Other meat,1993–94,1994,260.9,2.01,12,Other commodities
+Other meat,1994–95,1995,261.4,2.09,12,Other commodities
+Other meat,1995–96,1996,270.4,1.77,13,Other commodities
+Other meat,1996–97,1997,249.3,1.52,13,Other commodities
+Other meat,1997–98,1998,316.1,1.83,14,Other commodities
+Other meat,1998–99,1999,370.9,2.07,13,Other commodities
+Other meat,1999–00,2000,504.5,2.6,14,Other commodities
+Other meat,2000–01,2001,640.6,2.75,13,Other commodities
+Other meat,2001–02,2002,687.9,2.69,14,Other commodities
+Other meat,2002–03,2003,637.6,3.02,12,Other commodities
+Other meat,2003–04,2004,665.7,3.17,12,Other commodities
+Other meat,2004–05,2005,814.2,3.61,9,Other commodities
+Other meat,2005–06,2006,828.1,3.65,10,Other commodities
+Other meat,2006–07,2007,820.5,3.71,10,Other commodities
+Other meat,2007–08,2008,748.9,3.4,11,Other commodities
+Other meat,2008–09,2009,849.5,3.22,12,Other commodities
+Other meat,2009–10,2010,768.8,3.38,10,Other commodities
+Other meat,2010–11,2011,809.3,3.2,12,Other commodities
+Other meat,2011–12,2012,866.6,3.07,13,Other commodities
+Other meat,2012–13,2013,882.0,2.95,14,Other commodities
+Other meat,2013–14,2014,1050.1,3.18,13,Other commodities
+Other meat,2014–15,2015,1236.4,3.44,13,Other commodities
+Other meat,2015–16,2016,1179.7,3.3,14,Other commodities
+Other meat,2016–17,2017,1178.3,3.07,14,Other commodities
+Other meat,2017–18,2018,1244.1,3.4,14,Other commodities
+Other meat,2018–19,2019,1285.6,3.47,12,Other commodities
+Other meat,2019–20,2020,1463.8,3.69,10,Other commodities
+Other meat,2020–21,2021,1297.1,3.22,13,Other commodities
+Other meat,2021–22,2022,1629.9,2.97,12,Other commodities
+Other meat,2022–23,2023,1609.0,2.52,12,Other commodities
+Other meat,2023–24,2024,1872.9,3.23,12,Other commodities
+Other meat,2024–25,2025,2029.3,3.22,12,Other commodities
+Live animals,1988–89,1989,294.4,3.5,8,Other commodities
+Live animals,1989–90,1990,190.2,1.94,12,Other commodities
+Live animals,1990–91,1991,153.0,1.67,13,Other commodities
+Live animals,1991–92,1992,201.7,2.1,13,Other commodities
+Live animals,1992–93,1993,246.7,2.14,13,Other commodities
+Live animals,1993–94,1994,323.0,2.49,11,Other commodities
+Live animals,1994–95,1995,452.1,3.62,9,Other commodities
+Live animals,1995–96,1996,659.2,4.31,8,Other commodities
+Live animals,1996–97,1997,705.4,4.3,8,Other commodities
+Live animals,1997–98,1998,631.0,3.65,9,Other commodities
+Live animals,1998–99,1999,612.3,3.41,12,Other commodities
+Live animals,1999–00,2000,734.2,3.78,9,Other commodities
+Live animals,2000–01,2001,871.0,3.75,10,Other commodities
+Live animals,2001–02,2002,1111.6,4.35,9,Other commodities
+Live animals,2002–03,2003,1167.8,5.54,7,Other commodities
+Live animals,2003–04,2004,865.1,4.12,9,Other commodities
+Live animals,2004–05,2005,791.1,3.51,10,Other commodities
+Live animals,2005–06,2006,837.6,3.69,9,Other commodities
+Live animals,2006–07,2007,956.6,4.33,9,Other commodities
+Live animals,2007–08,2008,943.2,4.28,10,Other commodities
+Live animals,2008–09,2009,1164.9,4.41,9,Other commodities
+Live animals,2009–10,2010,1156.5,5.09,9,Other commodities
+Live animals,2010–11,2011,1120.7,4.43,9,Other commodities
+Live animals,2011–12,2012,1104.3,3.91,11,Other commodities
+Live animals,2012–13,2013,957.0,3.2,12,Other commodities
+Live animals,2013–14,2014,1370.2,4.15,10,Other commodities
+Live animals,2014–15,2015,1763.4,4.91,7,Other commodities
+Live animals,2015–16,2016,1976.0,5.53,7,Other commodities
+Live animals,2016–17,2017,1618.3,4.21,11,Other commodities
+Live animals,2017–18,2018,1719.9,4.7,10,Other commodities
+Live animals,2018–19,2019,1956.3,5.28,7,Other commodities
+Live animals,2019–20,2020,2235.3,5.64,7,Other commodities
+Live animals,2020–21,2021,1787.5,4.43,10,Other commodities
+Live animals,2021–22,2022,1517.3,2.76,13,Other commodities
+Live animals,2022–23,2023,1527.4,2.4,13,Other commodities
+Live animals,2023–24,2024,1220.2,2.1,14,Other commodities
+Live animals,2024–25,2025,1217.6,1.93,14,Other commodities
+Wheat,1988–89,1989,2193.1,26.09,1,Wheat
+Wheat,1989–90,1990,2455.4,25.06,1,Wheat
+Wheat,1990–91,1991,1696.4,18.47,2,Wheat
+Wheat,1991–92,1992,1510.2,15.75,2,Wheat
+Wheat,1992–93,1993,1987.2,17.23,2,Wheat
+Wheat,1993–94,1994,2290.1,17.66,2,Wheat
+Wheat,1994–95,1995,1617.8,12.96,3,Wheat
+Wheat,1995–96,1996,3363.3,22.01,1,Wheat
+Wheat,1996–97,1997,4301.4,26.25,1,Wheat
+Wheat,1997–98,1998,3629.6,20.98,1,Wheat
+Wheat,1998–99,1999,3398.8,18.95,1,Wheat
+Wheat,1999–00,2000,3412.9,17.57,1,Wheat
+Wheat,2000–01,2001,4134.5,17.78,1,Wheat
+Wheat,2001–02,2002,4527.4,17.74,1,Wheat
+Wheat,2002–03,2003,3036.4,14.39,2,Wheat
+Wheat,2003–04,2004,3399.2,16.17,2,Wheat
+Wheat,2004–05,2005,3395.8,15.06,2,Wheat
+Wheat,2005–06,2006,3212.3,14.15,2,Wheat
+Wheat,2006–07,2007,2672.5,12.1,3,Wheat
+Wheat,2007–08,2008,2886.2,13.11,2,Wheat
+Wheat,2008–09,2009,4936.1,18.69,2,Wheat
+Wheat,2009–10,2010,3636.4,16.01,2,Wheat
+Wheat,2010–11,2011,5481.8,21.67,1,Wheat
+Wheat,2011–12,2012,6350.9,22.49,1,Wheat
+Wheat,2012–13,2013,6750.0,22.58,1,Wheat
+Wheat,2013–14,2014,6084.1,18.45,2,Wheat
+Wheat,2014–15,2015,5528.1,15.38,2,Wheat
+Wheat,2015–16,2016,5096.3,14.25,2,Wheat
+Wheat,2016–17,2017,6073.3,15.81,2,Wheat
+Wheat,2017–18,2018,4652.1,12.7,2,Wheat
+Wheat,2018–19,2019,3656.7,9.87,3,Wheat
+Wheat,2019–20,2020,3847.3,9.71,3,Wheat
+Wheat,2020–21,2021,6804.9,16.87,2,Wheat
+Wheat,2021–22,2022,11336.2,20.63,1,Wheat
+Wheat,2022–23,2023,16737.9,26.25,1,Wheat
+Wheat,2023–24,2024,9871.4,17.02,2,Wheat
+Wheat,2024–25,2025,8660.5,13.74,2,Wheat
+Barley,1988–89,1989,224.4,2.67,11,Other commodities
+Barley,1989–90,1990,425.2,4.34,7,Other commodities
+Barley,1990–91,1991,356.3,3.88,8,Other commodities
+Barley,1991–92,1992,296.6,3.09,9,Other commodities
+Barley,1992–93,1993,404.8,3.51,9,Other commodities
+Barley,1993–94,1994,248.8,1.92,13,Other commodities
+Barley,1994–95,1995,296.4,2.37,11,Other commodities
+Barley,1995–96,1996,710.9,4.65,7,Other commodities
+Barley,1996–97,1997,815.0,4.97,7,Other commodities
+Barley,1997–98,1998,544.5,3.15,11,Other commodities
+Barley,1998–99,1999,698.0,3.89,8,Other commodities
+Barley,1999–00,2000,646.4,3.33,12,Other commodities
+Barley,2000–01,2001,875.9,3.77,9,Other commodities
+Barley,2001–02,2002,1017.4,3.99,10,Other commodities
+Barley,2002–03,2003,690.1,3.27,11,Other commodities
+Barley,2003–04,2004,998.1,4.75,7,Other commodities
+Barley,2004–05,2005,1045.0,4.63,8,Other commodities
+Barley,2005–06,2006,904.4,3.98,8,Other commodities
+Barley,2006–07,2007,576.3,2.61,12,Other commodities
+Barley,2007–08,2008,1175.1,5.34,7,Other commodities
+Barley,2008–09,2009,889.1,3.37,10,Other commodities
+Barley,2009–10,2010,701.9,3.09,12,Other commodities
+Barley,2010–11,2011,996.3,3.94,10,Other commodities
+Barley,2011–12,2012,1523.2,5.39,8,Other commodities
+Barley,2012–13,2013,1266.9,4.24,9,Other commodities
+Barley,2013–14,2014,1830.6,5.55,8,Other commodities
+Barley,2014–15,2015,1758.1,4.89,8,Other commodities
+Barley,2015–16,2016,1444.7,4.04,12,Other commodities
+Barley,2016–17,2017,2106.2,5.48,9,Other commodities
+Barley,2017–18,2018,1974.8,5.39,7,Other commodities
+Barley,2018–19,2019,1381.8,3.73,11,Other commodities
+Barley,2019–20,2020,1027.6,2.59,14,Other commodities
+Barley,2020–21,2021,1910.0,4.74,8,Other commodities
+Barley,2021–22,2022,2976.8,5.42,7,Other commodities
+Barley,2022–23,2023,3331.7,5.22,6,Other commodities
+Barley,2023–24,2024,3317.3,5.72,6,Other commodities
+Barley,2024–25,2025,2961.8,4.7,9,Other commodities
+Other grains,1988–89,1989,493.3,5.87,6,Other commodities
+Other grains,1989–90,1990,506.1,5.17,6,Other commodities
+Other grains,1990–91,1991,485.1,5.28,6,Other commodities
+Other grains,1991–92,1992,569.6,5.94,6,Other commodities
+Other grains,1992–93,1993,596.3,5.17,6,Other commodities
+Other grains,1993–94,1994,707.3,5.45,6,Other commodities
+Other grains,1994–95,1995,638.2,5.11,6,Other commodities
+Other grains,1995–96,1996,890.4,5.83,6,Other commodities
+Other grains,1996–97,1997,885.0,5.4,6,Other commodities
+Other grains,1997–98,1998,1021.0,5.9,6,Other commodities
+Other grains,1998–99,1999,1059.6,5.91,7,Other commodities
+Other grains,1999–00,2000,977.9,5.03,7,Other commodities
+Other grains,2000–01,2001,1086.2,4.67,7,Other commodities
+Other grains,2001–02,2002,1143.0,4.48,7,Other commodities
+Other grains,2002–03,2003,823.5,3.9,10,Other commodities
+Other grains,2003–04,2004,757.4,3.6,10,Other commodities
+Other grains,2004–05,2005,789.4,3.5,11,Other commodities
+Other grains,2005–06,2006,777.6,3.43,12,Other commodities
+Other grains,2006–07,2007,985.2,4.46,8,Other commodities
+Other grains,2007–08,2008,1077.2,4.89,8,Other commodities
+Other grains,2008–09,2009,1679.2,6.36,5,Other commodities
+Other grains,2009–10,2010,1227.8,5.4,8,Other commodities
+Other grains,2010–11,2011,1271.4,5.03,7,Other commodities
+Other grains,2011–12,2012,1739.0,6.16,5,Other commodities
+Other grains,2012–13,2013,1934.8,6.47,5,Other commodities
+Other grains,2013–14,2014,1973.7,5.98,6,Other commodities
+Other grains,2014–15,2015,2153.2,5.99,5,Other commodities
+Other grains,2015–16,2016,1986.3,5.55,6,Other commodities
+Other grains,2016–17,2017,1589.8,4.14,12,Other commodities
+Other grains,2017–18,2018,1763.4,4.81,9,Other commodities
+Other grains,2018–19,2019,1824.7,4.92,8,Other commodities
+Other grains,2019–20,2020,1644.4,4.15,8,Other commodities
+Other grains,2020–21,2021,1855.7,4.6,9,Other commodities
+Other grains,2021–22,2022,3068.3,5.58,6,Other commodities
+Other grains,2022–23,2023,4338.7,6.8,5,Other commodities
+Other grains,2023–24,2024,3283.0,5.66,7,Other commodities
+Other grains,2024–25,2025,3426.3,5.44,7,Other commodities
+Canola & oilseeds,1988–89,1989,68.1,0.81,15,Other commodities
+Canola & oilseeds,1989–90,1990,46.6,0.48,15,Other commodities
+Canola & oilseeds,1990–91,1991,45.7,0.5,15,Other commodities
+Canola & oilseeds,1991–92,1992,60.5,0.63,15,Other commodities
+Canola & oilseeds,1992–93,1993,76.3,0.66,15,Other commodities
+Canola & oilseeds,1993–94,1994,117.1,0.9,15,Other commodities
+Canola & oilseeds,1994–95,1995,105.4,0.84,15,Other commodities
+Canola & oilseeds,1995–96,1996,201.5,1.32,15,Other commodities
+Canola & oilseeds,1996–97,1997,197.9,1.21,15,Other commodities
+Canola & oilseeds,1997–98,1998,364.1,2.1,13,Other commodities
+Canola & oilseeds,1998–99,1999,683.7,3.81,9,Other commodities
+Canola & oilseeds,1999–00,2000,799.2,4.11,8,Other commodities
+Canola & oilseeds,2000–01,2001,721.8,3.1,12,Other commodities
+Canola & oilseeds,2001–02,2002,752.4,2.95,12,Other commodities
+Canola & oilseeds,2002–03,2003,400.6,1.9,13,Other commodities
+Canola & oilseeds,2003–04,2004,550.2,2.62,13,Other commodities
+Canola & oilseeds,2004–05,2005,492.4,2.18,13,Other commodities
+Canola & oilseeds,2005–06,2006,411.5,1.81,14,Other commodities
+Canola & oilseeds,2006–07,2007,167.3,0.76,15,Other commodities
+Canola & oilseeds,2007–08,2008,346.3,1.57,14,Other commodities
+Canola & oilseeds,2008–09,2009,644.3,2.44,13,Other commodities
+Canola & oilseeds,2009–10,2010,656.9,2.89,14,Other commodities
+Canola & oilseeds,2010–11,2011,973.0,3.85,11,Other commodities
+Canola & oilseeds,2011–12,2012,1554.5,5.5,7,Other commodities
+Canola & oilseeds,2012–13,2013,2339.7,7.83,3,Other commodities
+Canola & oilseeds,2013–14,2014,2134.1,6.47,5,Other commodities
+Canola & oilseeds,2014–15,2015,1449.4,4.03,10,Other commodities
+Canola & oilseeds,2015–16,2016,1194.2,3.34,13,Other commodities
+Canola & oilseeds,2016–17,2017,2289.3,5.96,7,Other commodities
+Canola & oilseeds,2017–18,2018,1419.6,3.88,13,Other commodities
+Canola & oilseeds,2018–19,2019,1017.6,2.75,14,Other commodities
+Canola & oilseeds,2019–20,2020,1198.9,3.03,13,Other commodities
+Canola & oilseeds,2020–21,2021,2215.9,5.49,7,Other commodities
+Canola & oilseeds,2021–22,2022,5965.6,10.86,3,Other commodities
+Canola & oilseeds,2022–23,2023,6178.3,9.69,3,Other commodities
+Canola & oilseeds,2023–24,2024,5136.9,8.85,3,Other commodities
+Canola & oilseeds,2024–25,2025,5238.1,8.31,4,Other commodities
+Pulses,1988–89,1989,233.0,2.77,10,Pulses
+Pulses,1989–90,1990,213.4,2.18,10,Pulses
+Pulses,1990–91,1991,193.9,2.11,10,Pulses
+Pulses,1991–92,1992,222.7,2.32,11,Pulses
+Pulses,1992–93,1993,361.3,3.13,10,Pulses
+Pulses,1993–94,1994,413.5,3.19,9,Pulses
+Pulses,1994–95,1995,188.6,1.51,14,Pulses
+Pulses,1995–96,1996,356.5,2.33,12,Pulses
+Pulses,1996–97,1997,471.9,2.88,12,Pulses
+Pulses,1997–98,1998,440.6,2.55,12,Pulses
+Pulses,1998–99,1999,351.7,1.96,14,Pulses
+Pulses,1999–00,2000,601.4,3.1,13,Pulses
+Pulses,2000–01,2001,640.2,2.75,14,Pulses
+Pulses,2001–02,2002,728.5,2.85,13,Pulses
+Pulses,2002–03,2003,290.5,1.38,14,Pulses
+Pulses,2003–04,2004,441.2,2.1,14,Pulses
+Pulses,2004–05,2005,311.5,1.38,14,Pulses
+Pulses,2005–06,2006,433.9,1.91,13,Pulses
+Pulses,2006–07,2007,449.3,2.03,13,Pulses
+Pulses,2007–08,2008,391.1,1.78,13,Pulses
+Pulses,2008–09,2009,605.3,2.29,14,Pulses
+Pulses,2009–10,2010,686.8,3.02,13,Pulses
+Pulses,2010–11,2011,698.4,2.76,13,Pulses
+Pulses,2011–12,2012,999.1,3.54,12,Pulses
+Pulses,2012–13,2013,1183.3,3.96,10,Pulses
+Pulses,2013–14,2014,1019.6,3.09,14,Pulses
+Pulses,2014–15,2015,1163.8,3.24,14,Pulses
+Pulses,2015–16,2016,1779.2,4.98,10,Pulses
+Pulses,2016–17,2017,3129.7,8.15,3,Pulses
+Pulses,2017–18,2018,1880.5,5.13,8,Pulses
+Pulses,2018–19,2019,1037.1,2.8,13,Pulses
+Pulses,2019–20,2020,1263.4,3.19,12,Pulses
+Pulses,2020–21,2021,1647.4,4.08,11,Pulses
+Pulses,2021–22,2022,2315.2,4.21,9,Pulses
+Pulses,2022–23,2023,2887.5,4.53,8,Pulses
+Pulses,2023–24,2024,2988.2,5.15,9,Pulses
+Pulses,2024–25,2025,4088.7,6.49,5,Pulses
+Sugar,1988–89,1989,864.0,10.28,3,Other commodities
+Sugar,1989–90,1990,1036.8,10.58,3,Other commodities
+Sugar,1990–91,1991,891.1,9.7,3,Other commodities
+Sugar,1991–92,1992,681.3,7.11,5,Other commodities
+Sugar,1992–93,1993,986.9,8.55,5,Other commodities
+Sugar,1993–94,1994,1232.1,9.5,5,Other commodities
+Sugar,1994–95,1995,1629.3,13.05,2,Other commodities
+Sugar,1995–96,1996,1552.4,10.16,4,Other commodities
+Sugar,1996–97,1997,1546.2,9.44,4,Other commodities
+Sugar,1997–98,1998,1809.1,10.46,4,Other commodities
+Sugar,1998–99,1999,1384.9,7.72,5,Other commodities
+Sugar,1999–00,2000,1095.4,5.64,6,Other commodities
+Sugar,2000–01,2001,1178.2,5.07,6,Other commodities
+Sugar,2001–02,2002,1430.2,5.6,6,Other commodities
+Sugar,2002–03,2003,1220.2,5.78,6,Other commodities
+Sugar,2003–04,2004,981.7,4.67,8,Other commodities
+Sugar,2004–05,2005,1140.2,5.06,6,Other commodities
+Sugar,2005–06,2006,1596.8,7.04,5,Other commodities
+Sugar,2006–07,2007,1509.7,6.83,5,Other commodities
+Sugar,2007–08,2008,1006.0,4.57,9,Other commodities
+Sugar,2008–09,2009,1337.6,5.06,8,Other commodities
+Sugar,2009–10,2010,1887.0,8.31,5,Other commodities
+Sugar,2010–11,2011,1435.8,5.68,6,Other commodities
+Sugar,2011–12,2012,1556.6,5.51,6,Other commodities
+Sugar,2012–13,2013,1437.7,4.81,8,Other commodities
+Sugar,2013–14,2014,1384.5,4.2,9,Other commodities
+Sugar,2014–15,2015,1643.0,4.57,9,Other commodities
+Sugar,2015–16,2016,1823.4,5.1,9,Other commodities
+Sugar,2016–17,2017,2424.4,6.31,5,Other commodities
+Sugar,2017–18,2018,1536.4,4.19,12,Other commodities
+Sugar,2018–19,2019,1530.3,4.13,10,Other commodities
+Sugar,2019–20,2020,1606.3,4.05,9,Other commodities
+Sugar,2020–21,2021,1609.1,3.99,12,Other commodities
+Sugar,2021–22,2022,2024.5,3.68,11,Other commodities
+Sugar,2022–23,2023,2203.8,3.46,10,Other commodities
+Sugar,2023–24,2024,3021.6,5.21,8,Other commodities
+Sugar,2024–25,2025,2049.7,3.25,11,Other commodities
+Wine,1988–89,1989,116.0,1.38,13,Wine
+Wine,1989–90,1990,123.0,1.26,13,Wine
+Wine,1990–91,1991,181.8,1.98,11,Wine
+Wine,1991–92,1992,245.0,2.56,10,Wine
+Wine,1992–93,1993,294.9,2.56,11,Wine
+Wine,1993–94,1994,370.0,2.85,10,Wine
+Wine,1994–95,1995,387.6,3.11,10,Wine
+Wine,1995–96,1996,475.7,3.11,11,Wine
+Wine,1996–97,1997,605.1,3.69,10,Wine
+Wine,1997–98,1998,876.9,5.07,7,Wine
+Wine,1998–99,1999,1070.3,5.97,6,Wine
+Wine,1999–00,2000,1375.4,7.08,5,Wine
+Wine,2000–01,2001,1756.0,7.55,5,Wine
+Wine,2001–02,2002,2108.8,8.26,4,Wine
+Wine,2002–03,2003,2427.6,11.51,4,Wine
+Wine,2003–04,2004,2497.2,11.88,3,Wine
+Wine,2004–05,2005,2720.7,12.07,3,Wine
+Wine,2005–06,2006,2768.2,12.2,3,Wine
+Wine,2006–07,2007,2894.1,13.1,2,Wine
+Wine,2007–08,2008,2699.9,12.26,4,Wine
+Wine,2008–09,2009,2493.0,9.44,4,Wine
+Wine,2009–10,2010,2188.4,9.63,3,Wine
+Wine,2010–11,2011,2009.4,7.94,4,Wine
+Wine,2011–12,2012,1910.3,6.76,4,Wine
+Wine,2012–13,2013,1866.6,6.25,6,Wine
+Wine,2013–14,2014,1847.4,5.6,7,Wine
+Wine,2014–15,2015,1982.7,5.52,6,Wine
+Wine,2015–16,2016,2183.9,6.11,5,Wine
+Wine,2016–17,2017,2366.3,6.16,6,Wine
+Wine,2017–18,2018,2828.1,7.72,4,Wine
+Wine,2018–19,2019,2953.8,7.97,4,Wine
+Wine,2019–20,2020,2900.0,7.32,4,Wine
+Wine,2020–21,2021,2618.9,6.49,5,Wine
+Wine,2021–22,2022,2196.6,4.0,10,Wine
+Wine,2022–23,2023,2027.2,3.18,11,Wine
+Wine,2023–24,2024,2318.2,4.0,11,Wine
+Wine,2024–25,2025,2608.5,4.14,10,Wine
+Fruit & nuts,1988–89,1989,314.5,3.74,7,Other commodities
+Fruit & nuts,1989–90,1990,307.2,3.14,9,Other commodities
+Fruit & nuts,1990–91,1991,372.7,4.06,7,Other commodities
+Fruit & nuts,1991–92,1992,449.1,4.69,7,Other commodities
+Fruit & nuts,1992–93,1993,490.6,4.25,7,Other commodities
+Fruit & nuts,1993–94,1994,491.2,3.79,8,Other commodities
+Fruit & nuts,1994–95,1995,499.7,4.0,7,Other commodities
+Fruit & nuts,1995–96,1996,560.6,3.67,9,Other commodities
+Fruit & nuts,1996–97,1997,622.7,3.8,9,Other commodities
+Fruit & nuts,1997–98,1998,595.9,3.44,10,Other commodities
+Fruit & nuts,1998–99,1999,632.3,3.53,11,Other commodities
+Fruit & nuts,1999–00,2000,661.7,3.41,11,Other commodities
+Fruit & nuts,2000–01,2001,745.5,3.21,11,Other commodities
+Fruit & nuts,2001–02,2002,856.2,3.35,11,Other commodities
+Fruit & nuts,2002–03,2003,823.9,3.91,9,Other commodities
+Fruit & nuts,2003–04,2004,682.2,3.25,11,Other commodities
+Fruit & nuts,2004–05,2005,769.2,3.41,12,Other commodities
+Fruit & nuts,2005–06,2006,805.2,3.55,11,Other commodities
+Fruit & nuts,2006–07,2007,742.4,3.36,11,Other commodities
+Fruit & nuts,2007–08,2008,732.0,3.32,12,Other commodities
+Fruit & nuts,2008–09,2009,855.5,3.24,11,Other commodities
+Fruit & nuts,2009–10,2010,736.4,3.24,11,Other commodities
+Fruit & nuts,2010–11,2011,618.2,2.44,14,Other commodities
+Fruit & nuts,2011–12,2012,701.1,2.48,14,Other commodities
+Fruit & nuts,2012–13,2013,945.6,3.16,13,Other commodities
+Fruit & nuts,2013–14,2014,1293.6,3.92,12,Other commodities
+Fruit & nuts,2014–15,2015,1448.3,4.03,11,Other commodities
+Fruit & nuts,2015–16,2016,1956.3,5.47,8,Other commodities
+Fruit & nuts,2016–17,2017,1861.4,4.85,10,Other commodities
+Fruit & nuts,2017–18,2018,2000.2,5.46,6,Other commodities
+Fruit & nuts,2018–19,2019,2532.7,6.83,6,Other commodities
+Fruit & nuts,2019–20,2020,2625.4,6.63,6,Other commodities
+Fruit & nuts,2020–21,2021,2250.0,5.58,6,Other commodities
+Fruit & nuts,2021–22,2022,2327.1,4.24,8,Other commodities
+Fruit & nuts,2022–23,2023,2612.5,4.1,9,Other commodities
+Fruit & nuts,2023–24,2024,2576.4,4.44,10,Other commodities
+Fruit & nuts,2024–25,2025,3328.7,5.28,8,Other commodities
+Vegetables,1988–89,1989,92.2,1.1,14,Other commodities
+Vegetables,1989–90,1990,99.5,1.02,14,Other commodities
+Vegetables,1990–91,1991,109.0,1.19,14,Other commodities
+Vegetables,1991–92,1992,145.3,1.52,14,Other commodities
+Vegetables,1992–93,1993,154.2,1.34,14,Other commodities
+Vegetables,1993–94,1994,205.6,1.59,14,Other commodities
+Vegetables,1994–95,1995,230.1,1.84,13,Other commodities
+Vegetables,1995–96,1996,238.5,1.56,14,Other commodities
+Vegetables,1996–97,1997,229.6,1.4,14,Other commodities
+Vegetables,1997–98,1998,269.5,1.56,15,Other commodities
+Vegetables,1998–99,1999,288.0,1.61,15,Other commodities
+Vegetables,1999–00,2000,250.8,1.29,15,Other commodities
+Vegetables,2000–01,2001,265.7,1.14,15,Other commodities
+Vegetables,2001–02,2002,297.4,1.17,15,Other commodities
+Vegetables,2002–03,2003,286.8,1.36,15,Other commodities
+Vegetables,2003–04,2004,242.9,1.16,15,Other commodities
+Vegetables,2004–05,2005,224.7,1.0,15,Other commodities
+Vegetables,2005–06,2006,219.0,0.96,15,Other commodities
+Vegetables,2006–07,2007,219.2,0.99,14,Other commodities
+Vegetables,2007–08,2008,207.3,0.94,15,Other commodities
+Vegetables,2008–09,2009,220.5,0.83,15,Other commodities
+Vegetables,2009–10,2010,228.8,1.01,15,Other commodities
+Vegetables,2010–11,2011,238.0,0.94,15,Other commodities
+Vegetables,2011–12,2012,219.8,0.78,15,Other commodities
+Vegetables,2012–13,2013,207.6,0.69,15,Other commodities
+Vegetables,2013–14,2014,218.0,0.66,15,Other commodities
+Vegetables,2014–15,2015,231.5,0.64,15,Other commodities
+Vegetables,2015–16,2016,286.0,0.8,15,Other commodities
+Vegetables,2016–17,2017,311.5,0.81,15,Other commodities
+Vegetables,2017–18,2018,325.0,0.89,15,Other commodities
+Vegetables,2018–19,2019,390.7,1.05,15,Other commodities
+Vegetables,2019–20,2020,414.0,1.04,15,Other commodities
+Vegetables,2020–21,2021,401.0,0.99,15,Other commodities
+Vegetables,2021–22,2022,419.4,0.76,15,Other commodities
+Vegetables,2022–23,2023,408.0,0.64,15,Other commodities
+Vegetables,2023–24,2024,442.7,0.76,15,Other commodities
+Vegetables,2024–25,2025,437.8,0.69,15,Other commodities
+Dairy,1988–89,1989,631.1,7.51,5,Other commodities
+Dairy,1989–90,1990,732.8,7.48,5,Other commodities
+Dairy,1990–91,1991,733.5,7.99,5,Other commodities
+Dairy,1991–92,1992,832.9,8.69,4,Other commodities
+Dairy,1992–93,1993,1138.4,9.87,3,Other commodities
+Dairy,1993–94,1994,1324.8,10.22,3,Other commodities
+Dairy,1994–95,1995,1454.6,11.65,4,Other commodities
+Dairy,1995–96,1996,1710.2,11.19,3,Other commodities
+Dairy,1996–97,1997,1799.6,10.98,3,Other commodities
+Dairy,1997–98,1998,1956.9,11.31,3,Other commodities
+Dairy,1998–99,1999,2302.7,12.84,3,Other commodities
+Dairy,1999–00,2000,2483.0,12.78,3,Other commodities
+Dairy,2000–01,2001,3089.2,13.28,3,Other commodities
+Dairy,2001–02,2002,3291.3,12.89,3,Other commodities
+Dairy,2002–03,2003,2512.0,11.91,3,Other commodities
+Dairy,2003–04,2004,2309.5,10.99,4,Other commodities
+Dairy,2004–05,2005,2509.6,11.13,4,Other commodities
+Dairy,2005–06,2006,2588.8,11.41,4,Other commodities
+Dairy,2006–07,2007,2457.2,11.12,4,Other commodities
+Dairy,2007–08,2008,2773.8,12.6,3,Other commodities
+Dairy,2008–09,2009,2692.9,10.2,3,Other commodities
+Dairy,2009–10,2010,2096.7,9.23,4,Other commodities
+Dairy,2010–11,2011,2350.0,9.29,3,Other commodities
+Dairy,2011–12,2012,2307.3,8.17,3,Other commodities
+Dairy,2012–13,2013,2250.7,7.53,4,Other commodities
+Dairy,2013–14,2014,2743.6,8.32,3,Other commodities
+Dairy,2014–15,2015,2491.3,6.93,4,Other commodities
+Dairy,2015–16,2016,2344.0,6.56,4,Other commodities
+Dairy,2016–17,2017,2256.2,5.87,8,Other commodities
+Dairy,2017–18,2018,2459.4,6.71,5,Other commodities
+Dairy,2018–19,2019,2616.6,7.06,5,Other commodities
+Dairy,2019–20,2020,2667.2,6.73,5,Other commodities
+Dairy,2020–21,2021,2767.3,6.86,4,Other commodities
+Dairy,2021–22,2022,3427.4,6.24,5,Other commodities
+Dairy,2022–23,2023,3306.1,5.18,7,Other commodities
+Dairy,2023–24,2024,3377.4,5.82,5,Other commodities
+Dairy,2024–25,2025,3726.8,5.91,6,Other commodities
+Seafood,1988–89,1989,673.9,8.02,4,Other commodities
+Seafood,1989–90,1990,783.4,8.0,4,Other commodities
+Seafood,1990–91,1991,832.3,9.06,4,Other commodities
+Seafood,1991–92,1992,982.2,10.25,3,Other commodities
+Seafood,1992–93,1993,1092.2,9.47,4,Other commodities
+Seafood,1993–94,1994,1244.7,9.6,4,Other commodities
+Seafood,1994–95,1995,1368.9,10.97,5,Other commodities
+Seafood,1995–96,1996,1328.9,8.7,5,Other commodities
+Seafood,1996–97,1997,1304.5,7.96,5,Other commodities
+Seafood,1997–98,1998,1489.2,8.61,5,Other commodities
+Seafood,1998–99,1999,1511.5,8.43,4,Other commodities
+Seafood,1999–00,2000,1989.3,10.24,4,Other commodities
+Seafood,2000–01,2001,2171.0,9.34,4,Other commodities
+Seafood,2001–02,2002,2102.2,8.24,5,Other commodities
+Seafood,2002–03,2003,1846.5,8.75,5,Other commodities
+Seafood,2003–04,2004,1652.7,7.86,5,Other commodities
+Seafood,2004–05,2005,1546.9,6.86,5,Other commodities
+Seafood,2005–06,2006,1550.8,6.83,6,Other commodities
+Seafood,2006–07,2007,1496.0,6.77,6,Other commodities
+Seafood,2007–08,2008,1343.1,6.1,5,Other commodities
+Seafood,2008–09,2009,1530.6,5.8,6,Other commodities
+Seafood,2009–10,2010,1248.4,5.5,7,Other commodities
+Seafood,2010–11,2011,1251.8,4.95,8,Other commodities
+Seafood,2011–12,2012,1229.1,4.35,10,Other commodities
+Seafood,2012–13,2013,1177.2,3.94,11,Other commodities
+Seafood,2013–14,2014,1306.9,3.96,11,Other commodities
+Seafood,2014–15,2015,1442.1,4.01,12,Other commodities
+Seafood,2015–16,2016,1543.7,4.32,11,Other commodities
+Seafood,2016–17,2017,1437.9,3.74,13,Other commodities
+Seafood,2017–18,2018,1578.2,4.31,11,Other commodities
+Seafood,2018–19,2019,1532.6,4.14,9,Other commodities
+Seafood,2019–20,2020,1414.0,3.57,11,Other commodities
+Seafood,2020–21,2021,1254.5,3.11,14,Other commodities
+Seafood,2021–22,2022,1306.9,2.38,14,Other commodities
+Seafood,2022–23,2023,1472.1,2.31,14,Other commodities
+Seafood,2023–24,2024,1427.7,2.46,13,Other commodities
+Seafood,2024–25,2025,1480.1,2.35,13,Other commodities
