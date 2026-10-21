@@ -1,5 +1,5 @@
 // Embeds each Vega-Lite chart into its div on index.html
-// Bevan Saldanha, FIT2179 Data Visualisation 2, October 2026
+// Saves each Vega-Lite chart to be used later in the HTML file
 
 // Section 1: the big picture
 var vg_1 = "js/1_total_line.vg.json";

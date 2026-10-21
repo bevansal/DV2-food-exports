@@ -18,7 +18,7 @@
         ]
       },
       "axis": {
-        "format": "d",
+        "format": "a",
         "tickCount": 9,
         "grid": false
       }
