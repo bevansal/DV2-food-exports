@@ -74,13 +74,12 @@
           "#C8692F",
           "#8C3B1F",
           "#3B1A0E"
-        ],
-        "clamp": true
+        ]
       },
       "legend": {
         "orient": "top",
         "direction": "horizontal",
-        "gradientLength": 260,
+        "gradientLength": 500,
         "labelExpr": "datum.label + '%'"
       }
     },

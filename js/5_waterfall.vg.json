@@ -116,9 +116,7 @@
     },
     "legend": {
       "labelColor": "#3A362F",
-      "titleColor": "#3A362F",
-      "labelFontSize": 12,
-      "titleFontSize": 12
+      "labelFontSize": 12
     }
   }
 }
