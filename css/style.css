@@ -12,7 +12,7 @@
   --wheat: #D99A1E;
   --eucalypt: #3E7C4F;
   --ocean: #2B5E7E;
-  /* fonts- the reason for the font stack is so that if Fraunces is not available, we can fall back to Georgia and then Times New Roman and then finally serif, same with sans */
+  /* fonts- the reason for the font stack is so that if Source Serif 4 is not available, we can fall back to Georgia and then Times New Roman and then finally serif, same with sans */
   --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
   --sans: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
   /* max size of the whole page*/
@@ -51,13 +51,22 @@ body {
 .footer-col-left { padding-right: 40px; }
 
 section.chapter {
-  padding: 72px 0 24px;
+  padding: 48px 0 8px;
   border-top: 1px solid var(--rule);
 }
 
 /*  hero  */
 .hero {
-  padding: 72px 0 40px;
+  padding: 48px 0 24px;
+}
+/* line the text and picture up in the middle, and size the picture to its column */
+.hero-top { align-items: center; }
+
+.hero-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
 .kicker {
@@ -156,7 +165,7 @@ h2 {
   font-size: 20px;
   line-height: 1.55;
   max-width: 62ch;
-  margin: 0 0 40px;
+  margin: 0 0 24px;
 }
 
 p { margin: 0 0 16px; max-width: 66ch; }
@@ -171,7 +180,7 @@ strong { color: var(--ink); font-weight: 700; }
 
 /*  chart blocks  */
 .chart-block {
-  margin: 0 0 56px;
+  margin: 0 0 36px;
 }
 
 .chart-block h3 {
@@ -331,7 +340,7 @@ strong { color: var(--ink); font-weight: 700; }
 
 /*  takeaways  */
 .takeaways {
-  margin: 8px -12px 56px;
+  margin: 8px -12px 32px;
 }
 
 .takeaways > [class*="pure-u"] {
@@ -401,4 +410,12 @@ footer a { color: var(--ocean); }
 
 @media (max-width: 520px) {
   body { font-size: 17px; }
+}
+
+/*  print / PDF  */
+/* keep each chart's title, chart and note on the same page, and never end a page on a heading */
+@media print {
+  section.chapter { padding-top: 24px; }
+  .chart-block { break-inside: avoid; margin-bottom: 24px; }
+  h2, h3, .sub { break-after: avoid; }
 }
