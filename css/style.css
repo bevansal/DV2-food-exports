@@ -143,11 +143,12 @@ h1 {
 
 /*  chapter headings and text  */
 .chapter-num {
-  font-family: var(--serif);
-  font-size: 15px;
-  font-weight: 600;
+  font-family: var(--sans);
+  font-size: 14px;
+  font-weight: 700;
   color: var(--soil);
-  letter-spacing: 0.04em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   margin: 0 0 6px;
 }
 
