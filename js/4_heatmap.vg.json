@@ -77,10 +77,11 @@
         ]
       },
       "legend": {
-        "orient": "top",
-        "direction": "horizontal",
-        "gradientLength": 500,
-        "labelExpr": "datum.label + '%'"
+          "orient": "top",
+          "direction": "horizontal",
+          "gradientLength": 260,
+          "values": [0, 10, 20, 30],
+          "labelExpr": "datum.label + '%'"
       }
     },
     "tooltip": [

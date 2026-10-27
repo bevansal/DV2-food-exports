@@ -65,6 +65,7 @@ section.chapter {
 .hero-img {
   display: block;
   width: 100%;
+  max-width: 480px;
   height: auto;
   border-radius: 8px;
 }
@@ -416,6 +417,13 @@ footer a { color: var(--ocean); }
 /*  print / PDF  */
 /* keep each chart's title, chart and note on the same page, and never end a page on a heading */
 @media print {
+  section.chapter { padding-top: 24px; }
+  .chart-block { break-inside: avoid; margin-bottom: 24px; }
+  h2, h3, .sub { break-after: avoid; }
+}
+
+@media print {
+  html, body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   section.chapter { padding-top: 24px; }
   .chart-block { break-inside: avoid; margin-bottom: 24px; }
   h2, h3, .sub { break-after: avoid; }

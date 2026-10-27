@@ -161,7 +161,7 @@
         "color": {
           "condition": {
             "test": "datum.story == 'Other commodities'",
-            "value": "#8A8274"
+            "value": "#6E675C"
           },
           "field": "story",
           "type": "nominal"
@@ -188,7 +188,7 @@
         "color": {
           "condition": {
             "test": "datum.story == 'Other commodities'",
-            "value": "#8A8274"
+            "value": "#6E675C"
           },
           "field": "story",
           "type": "nominal"
