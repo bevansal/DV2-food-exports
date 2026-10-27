@@ -149,7 +149,7 @@
               {
                 "field": "value",
                 "type": "quantitative",
-                "title": "Food exports 2025 (A$m)",
+                "title": "Food exports 2025 (A$ million)",
                 "format": "$,.0f"
               },
               {

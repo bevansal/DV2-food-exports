@@ -47,7 +47,7 @@
       <div class="figures pure-g">
         <div class="figure pure-u-1-2 pure-u-md-1-4">
           <span class="num">$63.0b</span>
-          <span class="lbl">of food exported in 2024–25, seven times more than in 1988–89</span>
+          <span class="lbl">of food exported in 2024–25, seven times more than in 1988–89. <div></div>Source: ABARES</span>
         </div>
         <div class="figure pure-u-1-2 pure-u-md-1-4">
           <span class="num">~70%</span>
@@ -203,7 +203,7 @@
           <div class="pure-u-1 pure-u-md-5-12 side-text text-col-left">
             <h3>Japan out, China in</h3>
             <p>In 2006 <span class="hl-soil">Japan</span> bought <strong>22%</strong> of our food exports. By 2025 that had fallen to <strong>9%</strong>. Japan still buys about $6.5 billion a year, not far off its 2022 record, but other markets have grown much faster.</p>
-            <p><span class="hl-green">China's</span> share jumped from 4% to <strong>20%</strong>. Southeast Asian markets such as the Philippines and Vietnam also more than doubled their share. The United Kingdom, once a top-five market, now buys less than 2%.</p>
+            <p><span class="hl-ocean">China's</span> share jumped from 4% to <strong>20%</strong>. Southeast Asian markets such as the Philippines and Vietnam also more than doubled their share. The United Kingdom, once a top-five market, now buys less than 2%.</p>
           </div>
           <div class="pure-u-1 pure-u-md-7-12 chart-block">
             <h3>Share of Australia's food exports, 2006 vs 2025</h3>
@@ -241,7 +241,7 @@
     <section class="chapter" id="takeaways">
       <div class="wrap">
         <p class="chapter-num">05</p>
-        <h2>What it all means</h2>
+        <h2>What does it all mean?</h2>
         <div class="takeaways pure-g">
           <div class="pure-u-1 pure-u-md-1-3"><div class="takeaway">
             <h3>Food exports are big and growing</h3>
@@ -260,8 +260,43 @@
     </section>
 
   </main>
+  <!-- About section: author, data sources, data notes, tools and AI use -->
+  <footer>
+    <div class="wrap">
+      <h2>About this visualisation</h2>
+      <div class="pure-g">
+        <div class="pure-u-1 pure-u-md-1-2 footer-col-left">
+          <h3>Author</h3>
+          <p>Bevan Saldanha, Monash University. Created for FIT2179 Data Visualisation (Data Visualisation 2), Semester 2, 2026. Published October 2026.</p>
 
-  <!-- Embed the Vega-Lite charts -->
+          <h3>Data sources</h3>
+          <ul>
+            <li>ABARES (2026), <em>Agricultural Commodity Statistics</em>, September 2026 release, Table 13: Value of agricultural, fisheries and forestry exports. Used for charts 1–5 (financial years, 1988–89 to 2024–25). <a href="https://www.agriculture.gov.au/abares/research-topics/agricultural-outlook/data">agriculture.gov.au</a></li>
+            <li>Department of Foreign Affairs and Trade (2026), <em>Trade statistical pivot tables: country by SITC, calendar years</em>, based on ABS data. Used for the maps and charts 9–12 (calendar years, 2006 to 2025). <a href="https://www.dfat.gov.au/trade/trade-and-investment-data-information-and-publications/trade-statistics/trade-statistical-pivot-tables">dfat.gov.au</a></li>
+            <li>ABARES (2025), <em>Snapshot of Australian Agriculture 2025</em>, for the "around 70% exported" figure. <a href="https://www.agriculture.gov.au/abares/products/insights/snapshot-of-australian-agriculture">agriculture.gov.au</a></li>
+            <li>World map: Natural Earth 1:110m Admin 0 countries, using the TopoJSON file from the FIT3179 Vega-Lite examples, slimmed down with mapshaper to keep only country names. <a href="https://www.naturalearthdata.com/">naturalearthdata.com</a></li>
+            <li>Trade barrier dates: <a href="https://www.cnbc.com/2023/08/04/china-lifts-anti-dumping-tariffs-on-australian-barley-after-three-years.html">CNBC (barley, 2023)</a>, <a href="https://hongkongfp.com/2024/03/28/china-lifts-punitive-tariffs-on-australian-wine-as-trade-ties-improve/">Hong Kong Free Press (wine, 2024)</a>, <a href="https://www.seafoodsource.com/news/supply-trade/china-resumes-importation-of-australian-lobster-after-four-year-ban">SeafoodSource (lobster, 2024)</a>.</li>
+            <li>Live sheep phase-out: <a href="https://www.agriland.ie/farming-news/australian-live-sheep-export-phaseout-by-2028-set-in-law/">Agriland (2024), Australian live sheep export phaseout by 2028 set in law</a>.</li>
+            <li>Header image: Easy-Peasy.AI (2024), <em>Vibrant Summer Wheat Field with Harvesters</em>, AI-generated image, used under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. <a href="https://easy-peasy.ai/ai-image-generator/images/summer-wheat-field-approaching-harvesters-agricultural-photography">easy-peasy.ai</a></li>
+          </ul>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2">
+          <h3>How the data was prepared</h3>
+          <ul>
+            <li>"Food" covers meat, live animals, grains, pulses, oilseeds, sugar, wine, dairy, fruit, nuts, vegetables and seafood. Wool, cotton, timber and other non-food products are excluded.</li>
+            <li>From DFAT, food means SITC sections 0 (food and live animals), 4 (animal and vegetable oils), division 11 (beverages) and division 22 (oilseeds). Exports with no country recorded, ship stores and international waters are left out, so shares are of exports to identified countries.</li>
+            <li>ABARES uses financial years (July to June) and DFAT uses calendar years, so the two sources' totals differ slightly. Both are in nominal Australian dollars.</li>
+            <li>The published tables were filtered and summed into small CSV files (about 300 KB in total). No export values were changed. As the week 9 studio suggests, extra columns the charts need (rankings, share percentages, label text, and the start and end points of the waterfall and marimekko blocks) were worked out in Python first, so each Vega-Lite spec only has to filter, calculate and look up.</li>
+          </ul>
+
+          <h3>Tools and use of AI</h3>
+          <p>Charts and maps built with Vega-Lite 5.1 and embedded with Vega-Embed 6.17. Layout uses the Pure.css grid. Fonts: Source Serif 4 and Source Sans 3 (Google Fonts). Generative AI (Claude, by Anthropic) was used to help extract and filter the data, draft and debug the Vega-Lite specifications and page code, and check the grammar of the text. The header image is AI-generated (Easy-Peasy.AI).All design decisions, data choices and the final story were reviewed by the author.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Embedding the Vega-Lite charts -->
   <script src="js/main.js"></script>
 </body>
 </html>

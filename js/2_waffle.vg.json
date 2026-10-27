@@ -73,7 +73,7 @@
       {
         "field": "value",
         "type": "quantitative",
-        "title": "Exports 2024–25 (A$m)",
+        "title": "Exports 2024–25 (A$ million)",
         "format": "$,.0f"
       }
     ]

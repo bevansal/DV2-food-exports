@@ -108,7 +108,7 @@
           {
             "field": "value",
             "type": "quantitative",
-            "title": "Food exports (A$m)",
+            "title": "Food exports (A$ million)",
             "format": "$,.0f"
           },
           {

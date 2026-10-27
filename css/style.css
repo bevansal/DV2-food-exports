@@ -218,7 +218,7 @@ strong { color: var(--ink); font-weight: 700; }
   line-height: 1.5;
   color: var(--muted);
   margin: 10px 0 0;
-  max-width: none;
+  max-width: 75ch;
 }
 
 .note a { color: var(--muted); }
@@ -226,6 +226,7 @@ strong { color: var(--ink); font-weight: 700; }
 /* side text next to a chart */
 .side-text {
   padding-top: 8px;
+  align-self: center;
 }
 
 .side-text h3 {
@@ -374,7 +375,7 @@ strong { color: var(--ink); font-weight: 700; }
 /*  footer / about  */
 footer {
   border-top: 3px solid var(--ink);
-  padding: 40px 0 64px;
+  padding: 40px 0 32px;
   font-size: 15px;
   line-height: 1.55;
 }

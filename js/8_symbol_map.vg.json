@@ -109,7 +109,7 @@
             "size": {
               "field": "value",
               "type": "quantitative",
-              "title": "Exports in 2025 (A$m)",
+              "title": "Exports in 2025 (A$ million)",
               "scale": {
                 "range": [
                   0,
@@ -138,7 +138,7 @@
               {
                 "field": "value",
                 "type": "quantitative",
-                "title": "Exports 2025 (A$m)",
+                "title": "Exports 2025 (A$ million)",
                 "format": "$,.0f"
               },
               {

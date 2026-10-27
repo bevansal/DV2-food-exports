@@ -78,7 +78,7 @@
             "range": [
               "#8A8274",
               "#B4532A",
-              "#3E7C4F"
+              "#2B5E7E"
             ]
           },
           "legend": {
@@ -100,7 +100,7 @@
           {
             "field": "value",
             "type": "quantitative",
-            "title": "Exports to China (A$m)",
+            "title": "Exports to China (A$ million)",
             "format": "$,.0f"
           }
         ]

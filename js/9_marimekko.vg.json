@@ -84,7 +84,7 @@
         "tooltip": [
           {"field": "market", "type": "nominal", "title": "Market"},
           {"field": "commodity", "type": "nominal", "title": "Commodity"},
-          {"field": "value", "type": "quantitative", "title": "Exports 2025 (A$m)", "format": "$,.0f"},
+          {"field": "value", "type": "quantitative", "title": "Exports 2025 (A$ million)", "format": "$,.0f"},
           {"field": "share", "type": "quantitative", "title": "Share of this market's purchases (%)", "format": ".0f"}
         ]
       }

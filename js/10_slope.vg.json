@@ -46,7 +46,7 @@
           "Lost share"
         ],
         "range": [
-          "#3E7C4F",
+          "#2B5E7E",
           "#8A8274",
           "#B4532A"
         ]
@@ -103,7 +103,7 @@
           {
             "field": "value",
             "type": "quantitative",
-            "title": "Food exports (A$m)",
+            "title": "Food exports (A$ million)",
             "format": "$,.0f"
           }
         ]
